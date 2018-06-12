@@ -14,8 +14,7 @@ This Sttarter changes its dependancy gradually makes your app look fantastic!
  
   s.ios.deployment_target = '8.0'
   s.swift_version = '3.0'
-  s.source_files = 'Sttarter/**/*.{h}'
-  s.vendored_frameworks = 'Sttarter/Sttarter.framework'
+  s.source_files = 'Sttarter/Sttarter.framework'
 
 
  
