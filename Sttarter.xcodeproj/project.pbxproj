@@ -1,0 +1,1310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55320CCE1DD18DED000D45F0 /* JSONAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 55320CC51DD18DED000D45F0 /* JSONAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55320CCF1DD18DED000D45F0 /* JSONHTTPClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 55320CC61DD18DED000D45F0 /* JSONHTTPClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55320CD01DD18DED000D45F0 /* JSONKeyMapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 55320CC71DD18DED000D45F0 /* JSONKeyMapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55320CD11DD18DED000D45F0 /* JSONModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 55320CC81DD18DED000D45F0 /* JSONModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55320CD21DD18DED000D45F0 /* JSONModel+networking.h in Headers */ = {isa = PBXBuildFile; fileRef = 55320CC91DD18DED000D45F0 /* JSONModel+networking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55320CD31DD18DED000D45F0 /* JSONModelClassProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 55320CCA1DD18DED000D45F0 /* JSONModelClassProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55320CD41DD18DED000D45F0 /* JSONModelError.h in Headers */ = {isa = PBXBuildFile; fileRef = 55320CCB1DD18DED000D45F0 /* JSONModelError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55320CD51DD18DED000D45F0 /* JSONModelLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 55320CCC1DD18DED000D45F0 /* JSONModelLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55320CD61DD18DED000D45F0 /* JSONValueTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = 55320CCD1DD18DED000D45F0 /* JSONValueTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55320CEA1DD18DFD000D45F0 /* MQTTCFSocketDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 55320CD71DD18DFD000D45F0 /* MQTTCFSocketDecoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55320CEB1DD18DFD000D45F0 /* MQTTCFSocketEncoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 55320CD81DD18DFD000D45F0 /* MQTTCFSocketEncoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55320CEC1DD18DFD000D45F0 /* MQTTCFSocketTransport.h in Headers */ = {isa = PBXBuildFile; fileRef = 55320CD91DD18DFD000D45F0 /* MQTTCFSocketTransport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55320CED1DD18DFD000D45F0 /* MQTTClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 55320CDA1DD18DFD000D45F0 /* MQTTClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55320CEE1DD18DFD000D45F0 /* MQTTCoreDataPersistence.h in Headers */ = {isa = PBXBuildFile; fileRef = 55320CDB1DD18DFD000D45F0 /* MQTTCoreDataPersistence.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55320CEF1DD18DFD000D45F0 /* MQTTDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 55320CDC1DD18DFD000D45F0 /* MQTTDecoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55320CF01DD18DFD000D45F0 /* MQTTInMemoryPersistence.h in Headers */ = {isa = PBXBuildFile; fileRef = 55320CDD1DD18DFD000D45F0 /* MQTTInMemoryPersistence.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55320CF11DD18DFD000D45F0 /* MQTTLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 55320CDE1DD18DFD000D45F0 /* MQTTLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55320CF21DD18DFD000D45F0 /* MQTTMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 55320CDF1DD18DFD000D45F0 /* MQTTMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55320CF31DD18DFD000D45F0 /* MQTTPersistence.h in Headers */ = {isa = PBXBuildFile; fileRef = 55320CE01DD18DFD000D45F0 /* MQTTPersistence.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55320CF41DD18DFD000D45F0 /* MQTTSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 55320CE11DD18DFD000D45F0 /* MQTTSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55320CF51DD18DFD000D45F0 /* MQTTSessionLegacy.h in Headers */ = {isa = PBXBuildFile; fileRef = 55320CE21DD18DFD000D45F0 /* MQTTSessionLegacy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55320CF61DD18DFD000D45F0 /* MQTTSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 55320CE31DD18DFD000D45F0 /* MQTTSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55320CF71DD18DFD000D45F0 /* MQTTSessionSynchron.h in Headers */ = {isa = PBXBuildFile; fileRef = 55320CE41DD18DFD000D45F0 /* MQTTSessionSynchron.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55320CF81DD18DFD000D45F0 /* MQTTSSLSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 55320CE51DD18DFD000D45F0 /* MQTTSSLSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55320CF91DD18DFD000D45F0 /* MQTTSSLSecurityPolicyDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 55320CE61DD18DFD000D45F0 /* MQTTSSLSecurityPolicyDecoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55320CFA1DD18DFD000D45F0 /* MQTTSSLSecurityPolicyEncoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 55320CE71DD18DFD000D45F0 /* MQTTSSLSecurityPolicyEncoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55320CFB1DD18DFD000D45F0 /* MQTTSSLSecurityPolicyTransport.h in Headers */ = {isa = PBXBuildFile; fileRef = 55320CE81DD18DFD000D45F0 /* MQTTSSLSecurityPolicyTransport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55320CFC1DD18DFD000D45F0 /* MQTTTransport.h in Headers */ = {isa = PBXBuildFile; fileRef = 55320CE91DD18DFD000D45F0 /* MQTTTransport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55320CFE1DD18EAC000D45F0 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 55320CFD1DD18EAC000D45F0 /* Info.plist */; };
+		811749E72482A7BABFEA1C3F /* libPods-Sttarter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DDB81F1A0447C4DEE08B6D3 /* libPods-Sttarter.a */; };
+		97016EE01E375BD000A17845 /* CouponResultModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 97016EDE1E375BD000A17845 /* CouponResultModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97016EE11E375BD000A17845 /* CouponResultModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 97016EDF1E375BD000A17845 /* CouponResultModel.m */; };
+		9703BA311E51BC62009CE372 /* SubwalletModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 9703BA2F1E51BC62009CE372 /* SubwalletModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9703BA321E51BC62009CE372 /* SubwalletModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9703BA301E51BC62009CE372 /* SubwalletModel.m */; };
+		9703BA351E51BD4C009CE372 /* AdminwalletModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 9703BA331E51BD4C009CE372 /* AdminwalletModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9703BA361E51BD4C009CE372 /* AdminwalletModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9703BA341E51BD4C009CE372 /* AdminwalletModel.m */; };
+		9703BA391E51BD9C009CE372 /* MemberswithWalletModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 9703BA371E51BD9C009CE372 /* MemberswithWalletModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9703BA3A1E51BD9C009CE372 /* MemberswithWalletModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9703BA381E51BD9C009CE372 /* MemberswithWalletModel.m */; };
+		9703BA3D1E51BF86009CE372 /* WalletModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 9703BA3B1E51BF86009CE372 /* WalletModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9703BA3E1E51BF86009CE372 /* WalletModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9703BA3C1E51BF86009CE372 /* WalletModel.m */; };
+		9703BA411E51C06F009CE372 /* WalletMemberModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 9703BA3F1E51C06F009CE372 /* WalletMemberModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9703BA421E51C06F009CE372 /* WalletMemberModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9703BA401E51C06F009CE372 /* WalletMemberModel.m */; };
+		971FC4521E4AE57E0074255D /* WalletTransactionsModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 971FC4501E4AE57E0074255D /* WalletTransactionsModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		971FC4531E4AE57E0074255D /* WalletTransactionsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 971FC4511E4AE57E0074255D /* WalletTransactionsModel.m */; };
+		9733A7E61E4D916900BF5A6E /* WithdrawModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 9733A7E41E4D916900BF5A6E /* WithdrawModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9733A7E71E4D916900BF5A6E /* WithdrawModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9733A7E51E4D916900BF5A6E /* WithdrawModel.m */; };
+		973C66351E488BAD00CA6F20 /* CreateWalletModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 973C66331E488BAD00CA6F20 /* CreateWalletModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		973C66361E488BAD00CA6F20 /* CreateWalletModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 973C66341E488BAD00CA6F20 /* CreateWalletModel.m */; };
+		973C66391E488BF000CA6F20 /* CreateWalletBaseModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 973C66371E488BF000CA6F20 /* CreateWalletBaseModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		973C663A1E488BF000CA6F20 /* CreateWalletBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 973C66381E488BF000CA6F20 /* CreateWalletBaseModel.m */; };
+		974573F11E49CE00009A8720 /* WalletListbaseModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 974573EF1E49CE00009A8720 /* WalletListbaseModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		974573F21E49CE00009A8720 /* WalletListbaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 974573F01E49CE00009A8720 /* WalletListbaseModel.m */; };
+		977D86811E37653A00B89544 /* CouponModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 977D867F1E37653A00B89544 /* CouponModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		977D86821E37653A00B89544 /* CouponModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 977D86801E37653A00B89544 /* CouponModel.m */; };
+		978DB9AC1E54693300F0DC95 /* GetMessagesModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 978DB9AA1E54693300F0DC95 /* GetMessagesModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		978DB9AD1E54693300F0DC95 /* GetMessagesModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 978DB9AB1E54693300F0DC95 /* GetMessagesModel.m */; };
+		97AC7C811E4B22180097D524 /* WalletDepositBaseModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 97AC7C7F1E4B22180097D524 /* WalletDepositBaseModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97AC7C821E4B22180097D524 /* WalletDepositBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 97AC7C801E4B22180097D524 /* WalletDepositBaseModel.m */; };
+		97AC7C851E4B22910097D524 /* WalletDeposit.h in Headers */ = {isa = PBXBuildFile; fileRef = 97AC7C831E4B22910097D524 /* WalletDeposit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97AC7C861E4B22910097D524 /* WalletDeposit.m in Sources */ = {isa = PBXBuildFile; fileRef = 97AC7C841E4B22910097D524 /* WalletDeposit.m */; };
+		97AD4A9B1E4AE28900570630 /* GetWalletDetailsModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 97AD4A991E4AE28900570630 /* GetWalletDetailsModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97AD4A9C1E4AE28900570630 /* GetWalletDetailsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 97AD4A9A1E4AE28900570630 /* GetWalletDetailsModel.m */; };
+		97CCC0311E32001C0054D8BB /* CouponManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 97CCC02F1E32001C0054D8BB /* CouponManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97CCC0321E32001C0054D8BB /* CouponManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 97CCC0301E32001C0054D8BB /* CouponManager.m */; };
+		97CD02781E41F828007E3D36 /* WalletManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 97CD02761E41F828007E3D36 /* WalletManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97CD02791E41F828007E3D36 /* WalletManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 97CD02771E41F828007E3D36 /* WalletManager.m */; };
+		97D8E5FB1E4B422E006F931B /* TransferFundBaseModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 97D8E5F91E4B422E006F931B /* TransferFundBaseModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97D8E5FC1E4B422E006F931B /* TransferFundBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 97D8E5FA1E4B422E006F931B /* TransferFundBaseModel.m */; };
+		97D8E5FF1E4B426F006F931B /* TransferFundModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 97D8E5FD1E4B426F006F931B /* TransferFundModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97D8E6001E4B426F006F931B /* TransferFundModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 97D8E5FE1E4B426F006F931B /* TransferFundModel.m */; };
+		97F327511E49A53500880D62 /* AddmemberBaseModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 97F3274F1E49A53500880D62 /* AddmemberBaseModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97F327521E49A53500880D62 /* AddmemberBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F327501E49A53500880D62 /* AddmemberBaseModel.m */; };
+		97F327551E49A55100880D62 /* AddMemberModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 97F327531E49A55100880D62 /* AddMemberModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97F327561E49A55100880D62 /* AddMemberModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F327541E49A55100880D62 /* AddMemberModel.m */; };
+		97F327591E49C0BF00880D62 /* WalletListModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 97F327571E49C0BF00880D62 /* WalletListModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97F3275A1E49C0BF00880D62 /* WalletListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F327581E49C0BF00880D62 /* WalletListModel.m */; };
+		97F3275D1E49C1BF00880D62 /* WalletMembersModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 97F3275B1E49C1BF00880D62 /* WalletMembersModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97F3275E1E49C1BF00880D62 /* WalletMembersModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F3275C1E49C1BF00880D62 /* WalletMembersModel.m */; };
+		97FC44101E2E1E3D0050DA59 /* AFHTTPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 97FC43FD1E2E1E3D0050DA59 /* AFHTTPRequestOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97FC44111E2E1E3D0050DA59 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 97FC43FE1E2E1E3D0050DA59 /* AFHTTPRequestOperation.m */; };
+		97FC44121E2E1E3D0050DA59 /* AFHTTPRequestOperationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 97FC43FF1E2E1E3D0050DA59 /* AFHTTPRequestOperationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97FC44131E2E1E3D0050DA59 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 97FC44001E2E1E3D0050DA59 /* AFHTTPRequestOperationManager.m */; };
+		97FC44141E2E1E3D0050DA59 /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 97FC44011E2E1E3D0050DA59 /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97FC44151E2E1E3D0050DA59 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 97FC44021E2E1E3D0050DA59 /* AFHTTPSessionManager.m */; };
+		97FC44161E2E1E3D0050DA59 /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 97FC44031E2E1E3D0050DA59 /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97FC44171E2E1E3D0050DA59 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 97FC44041E2E1E3D0050DA59 /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97FC44181E2E1E3D0050DA59 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 97FC44051E2E1E3D0050DA59 /* AFNetworkReachabilityManager.m */; };
+		97FC44191E2E1E3D0050DA59 /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 97FC44061E2E1E3D0050DA59 /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97FC441A1E2E1E3D0050DA59 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 97FC44071E2E1E3D0050DA59 /* AFSecurityPolicy.m */; };
+		97FC441B1E2E1E3D0050DA59 /* AFURLConnectionOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 97FC44081E2E1E3D0050DA59 /* AFURLConnectionOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97FC441C1E2E1E3D0050DA59 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 97FC44091E2E1E3D0050DA59 /* AFURLConnectionOperation.m */; };
+		97FC441D1E2E1E3D0050DA59 /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 97FC440A1E2E1E3D0050DA59 /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97FC441E1E2E1E3D0050DA59 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 97FC440B1E2E1E3D0050DA59 /* AFURLRequestSerialization.m */; };
+		97FC441F1E2E1E3D0050DA59 /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 97FC440C1E2E1E3D0050DA59 /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97FC44201E2E1E3D0050DA59 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 97FC440D1E2E1E3D0050DA59 /* AFURLResponseSerialization.m */; };
+		97FC44211E2E1E3D0050DA59 /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 97FC440E1E2E1E3D0050DA59 /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97FC44221E2E1E3D0050DA59 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 97FC440F1E2E1E3D0050DA59 /* AFURLSessionManager.m */; };
+		97FC443C1E2E1F8F0050DA59 /* ChangeRefModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 97FC44341E2E1F8F0050DA59 /* ChangeRefModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97FC443D1E2E1F8F0050DA59 /* ChangeRefModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 97FC44351E2E1F8F0050DA59 /* ChangeRefModel.m */; };
+		97FC443E1E2E1F8F0050DA59 /* GetRefCodeModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 97FC44361E2E1F8F0050DA59 /* GetRefCodeModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97FC443F1E2E1F8F0050DA59 /* GetRefCodeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 97FC44371E2E1F8F0050DA59 /* GetRefCodeModel.m */; };
+		97FC44401E2E1F8F0050DA59 /* Referrals.h in Headers */ = {isa = PBXBuildFile; fileRef = 97FC44381E2E1F8F0050DA59 /* Referrals.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97FC44411E2E1F8F0050DA59 /* Referrals.m in Sources */ = {isa = PBXBuildFile; fileRef = 97FC44391E2E1F8F0050DA59 /* Referrals.m */; };
+		97FC44551E2E25120050DA59 /* STTarterImports.h in Headers */ = {isa = PBXBuildFile; fileRef = 97FC444F1E2E25120050DA59 /* STTarterImports.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97FC44561E2E25120050DA59 /* STTarterManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 97FC44501E2E25120050DA59 /* STTarterManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97FC44571E2E25120050DA59 /* STTarterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 97FC44511E2E25120050DA59 /* STTarterManager.m */; };
+		97FC445A1E2E26BE0050DA59 /* STTarterReferrals.h in Headers */ = {isa = PBXBuildFile; fileRef = 97FC44581E2E26BE0050DA59 /* STTarterReferrals.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97FC445B1E2E26BE0050DA59 /* STTarterReferrals.m in Sources */ = {isa = PBXBuildFile; fileRef = 97FC44591E2E26BE0050DA59 /* STTarterReferrals.m */; };
+		97FC445E1E2E385D0050DA59 /* TrackUsageModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 97FC445C1E2E385D0050DA59 /* TrackUsageModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97FC445F1E2E385D0050DA59 /* TrackUsageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 97FC445D1E2E385D0050DA59 /* TrackUsageModel.m */; };
+		97FC446D1E2E3A010050DA59 /* AuthModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 97FC44611E2E3A010050DA59 /* AuthModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97FC446E1E2E3A010050DA59 /* AuthModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 97FC44621E2E3A010050DA59 /* AuthModel.m */; };
+		97FC446F1E2E3A010050DA59 /* GetOtpModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 97FC44631E2E3A010050DA59 /* GetOtpModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97FC44701E2E3A010050DA59 /* GetOtpModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 97FC44641E2E3A010050DA59 /* GetOtpModel.m */; };
+		97FC44711E2E3A010050DA59 /* LoginModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 97FC44651E2E3A010050DA59 /* LoginModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97FC44721E2E3A010050DA59 /* LoginModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 97FC44661E2E3A010050DA59 /* LoginModel.m */; };
+		97FC44731E2E3A010050DA59 /* OtpLoginModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 97FC44671E2E3A010050DA59 /* OtpLoginModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97FC44741E2E3A010050DA59 /* OtpLoginModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 97FC44681E2E3A010050DA59 /* OtpLoginModel.m */; };
+		97FC44751E2E3A010050DA59 /* SignUpModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 97FC44691E2E3A010050DA59 /* SignUpModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97FC44761E2E3A010050DA59 /* SignUpModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 97FC446A1E2E3A010050DA59 /* SignUpModel.m */; };
+		97FC44771E2E3A010050DA59 /* SignUpUserInfoModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 97FC446B1E2E3A010050DA59 /* SignUpUserInfoModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97FC44781E2E3A010050DA59 /* SignUpUserInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 97FC446C1E2E3A010050DA59 /* SignUpUserInfoModel.m */; };
+		97FC44901E2F2C220050DA59 /* BuzzMessagesModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 97FC447C1E2F2C220050DA59 /* BuzzMessagesModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97FC44911E2F2C220050DA59 /* BuzzMessagesModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 97FC447D1E2F2C220050DA59 /* BuzzMessagesModel.m */; };
+		97FC44981E2F2C220050DA59 /* MessagesModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 97FC44841E2F2C220050DA59 /* MessagesModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97FC44991E2F2C220050DA59 /* MessagesModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 97FC44851E2F2C220050DA59 /* MessagesModel.m */; };
+		97FC449A1E2F2C220050DA59 /* MyTopicsModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 97FC44861E2F2C220050DA59 /* MyTopicsModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97FC449B1E2F2C220050DA59 /* MyTopicsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 97FC44871E2F2C220050DA59 /* MyTopicsModel.m */; };
+		97FC449C1E2F2C220050DA59 /* PermittedModulesModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 97FC44881E2F2C220050DA59 /* PermittedModulesModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97FC449D1E2F2C220050DA59 /* PermittedModulesModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 97FC44891E2F2C220050DA59 /* PermittedModulesModel.m */; };
+		97FC44A01E2F2C220050DA59 /* TopicsModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 97FC448C1E2F2C220050DA59 /* TopicsModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97FC44A11E2F2C220050DA59 /* TopicsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 97FC448D1E2F2C220050DA59 /* TopicsModel.m */; };
+		97FC44A21E2F2C220050DA59 /* UsersModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 97FC448E1E2F2C220050DA59 /* UsersModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97FC44A31E2F2C220050DA59 /* UsersModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 97FC448F1E2F2C220050DA59 /* UsersModel.m */; };
+		97FC44B11E2F2C9C0050DA59 /* DatabaseHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 97FC44A41E2F2C9C0050DA59 /* DatabaseHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97FC44B21E2F2C9C0050DA59 /* DatabaseHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 97FC44A51E2F2C9C0050DA59 /* DatabaseHandler.m */; };
+		97FC44B71E2F2C9C0050DA59 /* Sttarter.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 97FC44AA1E2F2C9C0050DA59 /* Sttarter.xcdatamodeld */; };
+		97FC44C81E2F3B570050DA59 /* DownloadManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 97FC44C41E2F3B570050DA59 /* DownloadManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97FC44C91E2F3B570050DA59 /* DownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 97FC44C51E2F3B570050DA59 /* DownloadManager.m */; };
+		97FC44CA1E2F3B570050DA59 /* DownloadManagerAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 97FC44C61E2F3B570050DA59 /* DownloadManagerAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97FC44CB1E2F3B570050DA59 /* DownloadManagerConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 97FC44C71E2F3B570050DA59 /* DownloadManagerConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E30B8CF01E768D6900C8C1AA /* MQTT_QueueModel.h in Headers */ = {isa = PBXBuildFile; fileRef = E30B8CEC1E768D6900C8C1AA /* MQTT_QueueModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E30B8CF11E768D6900C8C1AA /* MQTT_QueueModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E30B8CED1E768D6900C8C1AA /* MQTT_QueueModel.m */; };
+		E30D35A21F9F6909004DE252 /* TopicModel.h in Headers */ = {isa = PBXBuildFile; fileRef = E30D35A01F9F6909004DE252 /* TopicModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E30D35A31F9F6909004DE252 /* TopicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E30D35A11F9F6909004DE252 /* TopicModel.m */; };
+		E319F4E81E35CC550040CA3E /* STTarterContentSystem.h in Headers */ = {isa = PBXBuildFile; fileRef = E319F4E61E35CC550040CA3E /* STTarterContentSystem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E319F4E91E35CC550040CA3E /* STTarterContentSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = E319F4E71E35CC550040CA3E /* STTarterContentSystem.m */; };
+		E359A9371F4D5F0400E72A6B /* TransactionsWalletModel.h in Headers */ = {isa = PBXBuildFile; fileRef = E359A9351F4D5F0400E72A6B /* TransactionsWalletModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E359A9381F4D5F0400E72A6B /* TransactionsWalletModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E359A9361F4D5F0400E72A6B /* TransactionsWalletModel.m */; };
+		E359A93F1F4D620400E72A6B /* transactedByModel.h in Headers */ = {isa = PBXBuildFile; fileRef = E359A93D1F4D620400E72A6B /* transactedByModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E359A9401F4D620400E72A6B /* transactedByModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E359A93E1F4D620400E72A6B /* transactedByModel.m */; };
+		E37FB2151E00086200183781 /* mqtt.plist in Resources */ = {isa = PBXBuildFile; fileRef = E37FB2141E00086200183781 /* mqtt.plist */; };
+		E3A61C5F1EAE164500E06821 /* Topics+CoreDataClass.h in Headers */ = {isa = PBXBuildFile; fileRef = E3A61C4B1EAE164400E06821 /* Topics+CoreDataClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3A61C601EAE164500E06821 /* Topics+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = E3A61C4C1EAE164400E06821 /* Topics+CoreDataClass.m */; };
+		E3A61C611EAE164500E06821 /* Topics+CoreDataProperties.h in Headers */ = {isa = PBXBuildFile; fileRef = E3A61C4D1EAE164400E06821 /* Topics+CoreDataProperties.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3A61C621EAE164500E06821 /* Topics+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = E3A61C4E1EAE164400E06821 /* Topics+CoreDataProperties.m */; };
+		E3A61C671EAE164500E06821 /* MQTT_Queue+CoreDataClass.h in Headers */ = {isa = PBXBuildFile; fileRef = E3A61C531EAE164400E06821 /* MQTT_Queue+CoreDataClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3A61C681EAE164500E06821 /* MQTT_Queue+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = E3A61C541EAE164400E06821 /* MQTT_Queue+CoreDataClass.m */; };
+		E3A61C691EAE164500E06821 /* MQTT_Queue+CoreDataProperties.h in Headers */ = {isa = PBXBuildFile; fileRef = E3A61C551EAE164400E06821 /* MQTT_Queue+CoreDataProperties.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3A61C6A1EAE164500E06821 /* MQTT_Queue+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = E3A61C561EAE164400E06821 /* MQTT_Queue+CoreDataProperties.m */; };
+		E3B20B0C1E38A8AC006DB729 /* STTaterCommunicator.h in Headers */ = {isa = PBXBuildFile; fileRef = E3B20B0A1E38A8AC006DB729 /* STTaterCommunicator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3B20B0D1E38A8AC006DB729 /* STTaterCommunicator.m in Sources */ = {isa = PBXBuildFile; fileRef = E3B20B0B1E38A8AC006DB729 /* STTaterCommunicator.m */; };
+		E3B20B161E38BE73006DB729 /* ReferrelSignupModel.h in Headers */ = {isa = PBXBuildFile; fileRef = E3B20B141E38BE73006DB729 /* ReferrelSignupModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3B20B171E38BE73006DB729 /* ReferrelSignupModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E3B20B151E38BE73006DB729 /* ReferrelSignupModel.m */; };
+		E3EDDEA31E5ABD11003323CF /* NSString+MD5.h in Headers */ = {isa = PBXBuildFile; fileRef = E3EDDEA11E5ABD11003323CF /* NSString+MD5.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3EDDEA41E5ABD11003323CF /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = E3EDDEA21E5ABD11003323CF /* NSString+MD5.m */; };
+		E3F004FE1E83E1AD003B9EB2 /* MessageStatusModel.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F004FC1E83E1AD003B9EB2 /* MessageStatusModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3F004FF1E83E1AD003B9EB2 /* MessageStatusModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E3F004FD1E83E1AD003B9EB2 /* MessageStatusModel.m */; };
+		E3F280FE1E8D06260004F6A2 /* Topic_GroupMembers.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F280FC1E8D06260004F6A2 /* Topic_GroupMembers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3F280FF1E8D06260004F6A2 /* Topic_GroupMembers.m in Sources */ = {isa = PBXBuildFile; fileRef = E3F280FD1E8D06260004F6A2 /* Topic_GroupMembers.m */; };
+		E3F471DE1E713D8F00FBADB7 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F471DD1E713D8F00FBADB7 /* Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3F532E11E4DDB0B002DD9E2 /* InteractedWithModel.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F532DF1E4DDB0B002DD9E2 /* InteractedWithModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3F532E21E4DDB0B002DD9E2 /* InteractedWithModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E3F532E01E4DDB0B002DD9E2 /* InteractedWithModel.m */; };
+		E3F6CDC41EA88B6A004AF1DF /* TopicMessageStatus.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F6CDC21EA88B6A004AF1DF /* TopicMessageStatus.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3F6CDC51EA88B6A004AF1DF /* TopicMessageStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = E3F6CDC31EA88B6A004AF1DF /* TopicMessageStatus.m */; };
+		E3F824D41E64375700E79E17 /* Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F824D21E64375700E79E17 /* Utils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3F824D51E64375700E79E17 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = E3F824D31E64375700E79E17 /* Utils.m */; };
+		E3FDBE251E5863FE00B70F15 /* TopicMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = E3FDBE231E5863FE00B70F15 /* TopicMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3FDBE261E5863FE00B70F15 /* TopicMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = E3FDBE241E5863FE00B70F15 /* TopicMessage.m */; };
+		E3FDBE291E5866EF00B70F15 /* TopicMessageDetail.h in Headers */ = {isa = PBXBuildFile; fileRef = E3FDBE271E5866EF00B70F15 /* TopicMessageDetail.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3FDBE2A1E5866EF00B70F15 /* TopicMessageDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = E3FDBE281E5866EF00B70F15 /* TopicMessageDetail.m */; };
+		E3FF49151EB8B9D9008B1A38 /* TopicMessageEntity+CoreDataClass.h in Headers */ = {isa = PBXBuildFile; fileRef = E3FF49091EB8B9D9008B1A38 /* TopicMessageEntity+CoreDataClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3FF49161EB8B9D9008B1A38 /* TopicMessageEntity+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = E3FF490A1EB8B9D9008B1A38 /* TopicMessageEntity+CoreDataClass.m */; };
+		E3FF49171EB8B9D9008B1A38 /* TopicMessageEntity+CoreDataProperties.h in Headers */ = {isa = PBXBuildFile; fileRef = E3FF490B1EB8B9D9008B1A38 /* TopicMessageEntity+CoreDataProperties.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3FF49181EB8B9D9008B1A38 /* TopicMessageEntity+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = E3FF490C1EB8B9D9008B1A38 /* TopicMessageEntity+CoreDataProperties.m */; };
+		E3FF49191EB8B9D9008B1A38 /* TopicMessageStatusEntity+CoreDataClass.h in Headers */ = {isa = PBXBuildFile; fileRef = E3FF490D1EB8B9D9008B1A38 /* TopicMessageStatusEntity+CoreDataClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3FF491A1EB8B9D9008B1A38 /* TopicMessageStatusEntity+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = E3FF490E1EB8B9D9008B1A38 /* TopicMessageStatusEntity+CoreDataClass.m */; };
+		E3FF491B1EB8B9D9008B1A38 /* TopicMessageStatusEntity+CoreDataProperties.h in Headers */ = {isa = PBXBuildFile; fileRef = E3FF490F1EB8B9D9008B1A38 /* TopicMessageStatusEntity+CoreDataProperties.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3FF491C1EB8B9D9008B1A38 /* TopicMessageStatusEntity+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = E3FF49101EB8B9D9008B1A38 /* TopicMessageStatusEntity+CoreDataProperties.m */; };
+		E3FF491D1EB8B9D9008B1A38 /* TopicMessageDetailEntity+CoreDataClass.h in Headers */ = {isa = PBXBuildFile; fileRef = E3FF49111EB8B9D9008B1A38 /* TopicMessageDetailEntity+CoreDataClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3FF491E1EB8B9D9008B1A38 /* TopicMessageDetailEntity+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = E3FF49121EB8B9D9008B1A38 /* TopicMessageDetailEntity+CoreDataClass.m */; };
+		E3FF491F1EB8B9D9008B1A38 /* TopicMessageDetailEntity+CoreDataProperties.h in Headers */ = {isa = PBXBuildFile; fileRef = E3FF49131EB8B9D9008B1A38 /* TopicMessageDetailEntity+CoreDataProperties.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3FF49201EB8B9D9008B1A38 /* TopicMessageDetailEntity+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = E3FF49141EB8B9D9008B1A38 /* TopicMessageDetailEntity+CoreDataProperties.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0DDB81F1A0447C4DEE08B6D3 /* libPods-Sttarter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Sttarter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		412B80BEB4192059DED7D91F /* Pods-Sttarter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sttarter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sttarter/Pods-Sttarter.debug.xcconfig"; sourceTree = "<group>"; };
+		55320CC51DD18DED000D45F0 /* JSONAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JSONAPI.h; path = Pods/JSONModel/JSONModel/JSONModelNetworking/JSONAPI.h; sourceTree = "<group>"; };
+		55320CC61DD18DED000D45F0 /* JSONHTTPClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JSONHTTPClient.h; path = Pods/JSONModel/JSONModel/JSONModelNetworking/JSONHTTPClient.h; sourceTree = "<group>"; };
+		55320CC71DD18DED000D45F0 /* JSONKeyMapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JSONKeyMapper.h; path = Pods/JSONModel/JSONModel/JSONModelTransformations/JSONKeyMapper.h; sourceTree = "<group>"; };
+		55320CC81DD18DED000D45F0 /* JSONModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JSONModel.h; path = Pods/JSONModel/JSONModel/JSONModel/JSONModel.h; sourceTree = "<group>"; };
+		55320CC91DD18DED000D45F0 /* JSONModel+networking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "JSONModel+networking.h"; path = "Pods/JSONModel/JSONModel/JSONModelNetworking/JSONModel+networking.h"; sourceTree = "<group>"; };
+		55320CCA1DD18DED000D45F0 /* JSONModelClassProperty.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JSONModelClassProperty.h; path = Pods/JSONModel/JSONModel/JSONModel/JSONModelClassProperty.h; sourceTree = "<group>"; };
+		55320CCB1DD18DED000D45F0 /* JSONModelError.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JSONModelError.h; path = Pods/JSONModel/JSONModel/JSONModel/JSONModelError.h; sourceTree = "<group>"; };
+		55320CCC1DD18DED000D45F0 /* JSONModelLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JSONModelLib.h; path = Pods/JSONModel/JSONModel/JSONModelLib.h; sourceTree = "<group>"; };
+		55320CCD1DD18DED000D45F0 /* JSONValueTransformer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JSONValueTransformer.h; path = Pods/JSONModel/JSONModel/JSONModelTransformations/JSONValueTransformer.h; sourceTree = "<group>"; };
+		55320CD71DD18DFD000D45F0 /* MQTTCFSocketDecoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MQTTCFSocketDecoder.h; path = Pods/MQTTClient/MQTTClient/MQTTClient/MQTTCFSocketDecoder.h; sourceTree = "<group>"; };
+		55320CD81DD18DFD000D45F0 /* MQTTCFSocketEncoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MQTTCFSocketEncoder.h; path = Pods/MQTTClient/MQTTClient/MQTTClient/MQTTCFSocketEncoder.h; sourceTree = "<group>"; };
+		55320CD91DD18DFD000D45F0 /* MQTTCFSocketTransport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MQTTCFSocketTransport.h; path = Pods/MQTTClient/MQTTClient/MQTTClient/MQTTCFSocketTransport.h; sourceTree = "<group>"; };
+		55320CDA1DD18DFD000D45F0 /* MQTTClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MQTTClient.h; path = Pods/MQTTClient/MQTTClient/MQTTClient/MQTTClient.h; sourceTree = "<group>"; };
+		55320CDB1DD18DFD000D45F0 /* MQTTCoreDataPersistence.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MQTTCoreDataPersistence.h; path = Pods/MQTTClient/MQTTClient/MQTTClient/MQTTCoreDataPersistence.h; sourceTree = "<group>"; };
+		55320CDC1DD18DFD000D45F0 /* MQTTDecoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MQTTDecoder.h; path = Pods/MQTTClient/MQTTClient/MQTTClient/MQTTDecoder.h; sourceTree = "<group>"; };
+		55320CDD1DD18DFD000D45F0 /* MQTTInMemoryPersistence.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MQTTInMemoryPersistence.h; path = Pods/MQTTClient/MQTTClient/MQTTClient/MQTTInMemoryPersistence.h; sourceTree = "<group>"; };
+		55320CDE1DD18DFD000D45F0 /* MQTTLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MQTTLog.h; path = Pods/MQTTClient/MQTTClient/MQTTClient/MQTTLog.h; sourceTree = "<group>"; };
+		55320CDF1DD18DFD000D45F0 /* MQTTMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MQTTMessage.h; path = Pods/MQTTClient/MQTTClient/MQTTClient/MQTTMessage.h; sourceTree = "<group>"; };
+		55320CE01DD18DFD000D45F0 /* MQTTPersistence.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MQTTPersistence.h; path = Pods/MQTTClient/MQTTClient/MQTTClient/MQTTPersistence.h; sourceTree = "<group>"; };
+		55320CE11DD18DFD000D45F0 /* MQTTSession.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MQTTSession.h; path = Pods/MQTTClient/MQTTClient/MQTTClient/MQTTSession.h; sourceTree = "<group>"; };
+		55320CE21DD18DFD000D45F0 /* MQTTSessionLegacy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MQTTSessionLegacy.h; path = Pods/MQTTClient/MQTTClient/MQTTClient/MQTTSessionLegacy.h; sourceTree = "<group>"; };
+		55320CE31DD18DFD000D45F0 /* MQTTSessionManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MQTTSessionManager.h; path = Pods/MQTTClient/MQTTClient/MQTTClient/MQTTSessionManager.h; sourceTree = "<group>"; };
+		55320CE41DD18DFD000D45F0 /* MQTTSessionSynchron.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MQTTSessionSynchron.h; path = Pods/MQTTClient/MQTTClient/MQTTClient/MQTTSessionSynchron.h; sourceTree = "<group>"; };
+		55320CE51DD18DFD000D45F0 /* MQTTSSLSecurityPolicy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MQTTSSLSecurityPolicy.h; path = Pods/MQTTClient/MQTTClient/MQTTClient/MQTTSSLSecurityPolicy.h; sourceTree = "<group>"; };
+		55320CE61DD18DFD000D45F0 /* MQTTSSLSecurityPolicyDecoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MQTTSSLSecurityPolicyDecoder.h; path = Pods/MQTTClient/MQTTClient/MQTTClient/MQTTSSLSecurityPolicyDecoder.h; sourceTree = "<group>"; };
+		55320CE71DD18DFD000D45F0 /* MQTTSSLSecurityPolicyEncoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MQTTSSLSecurityPolicyEncoder.h; path = Pods/MQTTClient/MQTTClient/MQTTClient/MQTTSSLSecurityPolicyEncoder.h; sourceTree = "<group>"; };
+		55320CE81DD18DFD000D45F0 /* MQTTSSLSecurityPolicyTransport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MQTTSSLSecurityPolicyTransport.h; path = Pods/MQTTClient/MQTTClient/MQTTClient/MQTTSSLSecurityPolicyTransport.h; sourceTree = "<group>"; };
+		55320CE91DD18DFD000D45F0 /* MQTTTransport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MQTTTransport.h; path = Pods/MQTTClient/MQTTClient/MQTTClient/MQTTTransport.h; sourceTree = "<group>"; };
+		55320CFD1DD18EAC000D45F0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Sttarter/Info.plist; sourceTree = "<group>"; };
+		55B2D6571DCB6DC7008B65CA /* Sttarter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Sttarter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63B1F78FEBED1BE8C18F1F86 /* Pods-Sttarter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sttarter.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sttarter/Pods-Sttarter.release.xcconfig"; sourceTree = "<group>"; };
+		97016EDE1E375BD000A17845 /* CouponResultModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CouponResultModel.h; path = DataModels/Coupon/CouponResultModel.h; sourceTree = "<group>"; };
+		97016EDF1E375BD000A17845 /* CouponResultModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CouponResultModel.m; path = DataModels/Coupon/CouponResultModel.m; sourceTree = "<group>"; };
+		9703BA2F1E51BC62009CE372 /* SubwalletModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SubwalletModel.h; path = DataModels/Wallet/SubwalletModel.h; sourceTree = "<group>"; };
+		9703BA301E51BC62009CE372 /* SubwalletModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SubwalletModel.m; path = DataModels/Wallet/SubwalletModel.m; sourceTree = "<group>"; };
+		9703BA331E51BD4C009CE372 /* AdminwalletModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AdminwalletModel.h; path = DataModels/Wallet/AdminwalletModel.h; sourceTree = "<group>"; };
+		9703BA341E51BD4C009CE372 /* AdminwalletModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AdminwalletModel.m; path = DataModels/Wallet/AdminwalletModel.m; sourceTree = "<group>"; };
+		9703BA371E51BD9C009CE372 /* MemberswithWalletModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MemberswithWalletModel.h; path = DataModels/Wallet/MemberswithWalletModel.h; sourceTree = "<group>"; };
+		9703BA381E51BD9C009CE372 /* MemberswithWalletModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MemberswithWalletModel.m; path = DataModels/Wallet/MemberswithWalletModel.m; sourceTree = "<group>"; };
+		9703BA3B1E51BF86009CE372 /* WalletModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WalletModel.h; path = DataModels/Wallet/WalletModel.h; sourceTree = "<group>"; };
+		9703BA3C1E51BF86009CE372 /* WalletModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WalletModel.m; path = DataModels/Wallet/WalletModel.m; sourceTree = "<group>"; };
+		9703BA3F1E51C06F009CE372 /* WalletMemberModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WalletMemberModel.h; path = DataModels/Wallet/WalletMemberModel.h; sourceTree = "<group>"; };
+		9703BA401E51C06F009CE372 /* WalletMemberModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WalletMemberModel.m; path = DataModels/Wallet/WalletMemberModel.m; sourceTree = "<group>"; };
+		971FC4501E4AE57E0074255D /* WalletTransactionsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WalletTransactionsModel.h; path = DataModels/Wallet/WalletTransactionsModel.h; sourceTree = "<group>"; };
+		971FC4511E4AE57E0074255D /* WalletTransactionsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WalletTransactionsModel.m; path = DataModels/Wallet/WalletTransactionsModel.m; sourceTree = "<group>"; };
+		9733A7E41E4D916900BF5A6E /* WithdrawModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WithdrawModel.h; path = DataModels/Wallet/WithdrawModel.h; sourceTree = "<group>"; };
+		9733A7E51E4D916900BF5A6E /* WithdrawModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WithdrawModel.m; path = DataModels/Wallet/WithdrawModel.m; sourceTree = "<group>"; };
+		973C66331E488BAD00CA6F20 /* CreateWalletModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CreateWalletModel.h; path = DataModels/Wallet/CreateWalletModel.h; sourceTree = "<group>"; };
+		973C66341E488BAD00CA6F20 /* CreateWalletModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CreateWalletModel.m; path = DataModels/Wallet/CreateWalletModel.m; sourceTree = "<group>"; };
+		973C66371E488BF000CA6F20 /* CreateWalletBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CreateWalletBaseModel.h; path = DataModels/Wallet/CreateWalletBaseModel.h; sourceTree = "<group>"; };
+		973C66381E488BF000CA6F20 /* CreateWalletBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CreateWalletBaseModel.m; path = DataModels/Wallet/CreateWalletBaseModel.m; sourceTree = "<group>"; };
+		974573EF1E49CE00009A8720 /* WalletListbaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WalletListbaseModel.h; path = DataModels/Wallet/WalletListbaseModel.h; sourceTree = "<group>"; };
+		974573F01E49CE00009A8720 /* WalletListbaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WalletListbaseModel.m; path = DataModels/Wallet/WalletListbaseModel.m; sourceTree = "<group>"; };
+		977D867F1E37653A00B89544 /* CouponModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CouponModel.h; path = DataModels/Coupon/CouponModel.h; sourceTree = "<group>"; };
+		977D86801E37653A00B89544 /* CouponModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CouponModel.m; path = DataModels/Coupon/CouponModel.m; sourceTree = "<group>"; };
+		978DB9AA1E54693300F0DC95 /* GetMessagesModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GetMessagesModel.h; path = DataModels/Communicator/GetMessagesModel.h; sourceTree = "<group>"; };
+		978DB9AB1E54693300F0DC95 /* GetMessagesModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GetMessagesModel.m; path = DataModels/Communicator/GetMessagesModel.m; sourceTree = "<group>"; };
+		97AC7C7F1E4B22180097D524 /* WalletDepositBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WalletDepositBaseModel.h; path = DataModels/Wallet/WalletDepositBaseModel.h; sourceTree = "<group>"; };
+		97AC7C801E4B22180097D524 /* WalletDepositBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WalletDepositBaseModel.m; path = DataModels/Wallet/WalletDepositBaseModel.m; sourceTree = "<group>"; };
+		97AC7C831E4B22910097D524 /* WalletDeposit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WalletDeposit.h; path = DataModels/Wallet/WalletDeposit.h; sourceTree = "<group>"; };
+		97AC7C841E4B22910097D524 /* WalletDeposit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WalletDeposit.m; path = DataModels/Wallet/WalletDeposit.m; sourceTree = "<group>"; };
+		97AD4A991E4AE28900570630 /* GetWalletDetailsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GetWalletDetailsModel.h; path = DataModels/Wallet/GetWalletDetailsModel.h; sourceTree = "<group>"; };
+		97AD4A9A1E4AE28900570630 /* GetWalletDetailsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GetWalletDetailsModel.m; path = DataModels/Wallet/GetWalletDetailsModel.m; sourceTree = "<group>"; };
+		97CCC02F1E32001C0054D8BB /* CouponManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CouponManager.h; path = Main/Coupons/CouponManager.h; sourceTree = "<group>"; };
+		97CCC0301E32001C0054D8BB /* CouponManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CouponManager.m; path = Main/Coupons/CouponManager.m; sourceTree = "<group>"; };
+		97CD02761E41F828007E3D36 /* WalletManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WalletManager.h; path = Main/Wallet/WalletManager.h; sourceTree = "<group>"; };
+		97CD02771E41F828007E3D36 /* WalletManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WalletManager.m; path = Main/Wallet/WalletManager.m; sourceTree = "<group>"; };
+		97D8E5F91E4B422E006F931B /* TransferFundBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TransferFundBaseModel.h; path = DataModels/Wallet/TransferFundBaseModel.h; sourceTree = "<group>"; };
+		97D8E5FA1E4B422E006F931B /* TransferFundBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TransferFundBaseModel.m; path = DataModels/Wallet/TransferFundBaseModel.m; sourceTree = "<group>"; };
+		97D8E5FD1E4B426F006F931B /* TransferFundModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TransferFundModel.h; path = DataModels/Wallet/TransferFundModel.h; sourceTree = "<group>"; };
+		97D8E5FE1E4B426F006F931B /* TransferFundModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TransferFundModel.m; path = DataModels/Wallet/TransferFundModel.m; sourceTree = "<group>"; };
+		97F3274F1E49A53500880D62 /* AddmemberBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddmemberBaseModel.h; path = DataModels/Wallet/AddmemberBaseModel.h; sourceTree = "<group>"; };
+		97F327501E49A53500880D62 /* AddmemberBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddmemberBaseModel.m; path = DataModels/Wallet/AddmemberBaseModel.m; sourceTree = "<group>"; };
+		97F327531E49A55100880D62 /* AddMemberModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddMemberModel.h; path = DataModels/Wallet/AddMemberModel.h; sourceTree = "<group>"; };
+		97F327541E49A55100880D62 /* AddMemberModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddMemberModel.m; path = DataModels/Wallet/AddMemberModel.m; sourceTree = "<group>"; };
+		97F327571E49C0BF00880D62 /* WalletListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WalletListModel.h; path = DataModels/Wallet/WalletListModel.h; sourceTree = "<group>"; };
+		97F327581E49C0BF00880D62 /* WalletListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WalletListModel.m; path = DataModels/Wallet/WalletListModel.m; sourceTree = "<group>"; };
+		97F3275B1E49C1BF00880D62 /* WalletMembersModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WalletMembersModel.h; path = DataModels/Wallet/WalletMembersModel.h; sourceTree = "<group>"; };
+		97F3275C1E49C1BF00880D62 /* WalletMembersModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WalletMembersModel.m; path = DataModels/Wallet/WalletMembersModel.m; sourceTree = "<group>"; };
+		97FC43FD1E2E1E3D0050DA59 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperation.h; path = "External Classes/API Handler/Afnetworking/AFHTTPRequestOperation.h"; sourceTree = "<group>"; };
+		97FC43FE1E2E1E3D0050DA59 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperation.m; path = "External Classes/API Handler/Afnetworking/AFHTTPRequestOperation.m"; sourceTree = "<group>"; };
+		97FC43FF1E2E1E3D0050DA59 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperationManager.h; path = "External Classes/API Handler/Afnetworking/AFHTTPRequestOperationManager.h"; sourceTree = "<group>"; };
+		97FC44001E2E1E3D0050DA59 /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperationManager.m; path = "External Classes/API Handler/Afnetworking/AFHTTPRequestOperationManager.m"; sourceTree = "<group>"; };
+		97FC44011E2E1E3D0050DA59 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = "External Classes/API Handler/Afnetworking/AFHTTPSessionManager.h"; sourceTree = "<group>"; };
+		97FC44021E2E1E3D0050DA59 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = "External Classes/API Handler/Afnetworking/AFHTTPSessionManager.m"; sourceTree = "<group>"; };
+		97FC44031E2E1E3D0050DA59 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = "External Classes/API Handler/Afnetworking/AFNetworking.h"; sourceTree = "<group>"; };
+		97FC44041E2E1E3D0050DA59 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = "External Classes/API Handler/Afnetworking/AFNetworkReachabilityManager.h"; sourceTree = "<group>"; };
+		97FC44051E2E1E3D0050DA59 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = "External Classes/API Handler/Afnetworking/AFNetworkReachabilityManager.m"; sourceTree = "<group>"; };
+		97FC44061E2E1E3D0050DA59 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = "External Classes/API Handler/Afnetworking/AFSecurityPolicy.h"; sourceTree = "<group>"; };
+		97FC44071E2E1E3D0050DA59 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = "External Classes/API Handler/Afnetworking/AFSecurityPolicy.m"; sourceTree = "<group>"; };
+		97FC44081E2E1E3D0050DA59 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFURLConnectionOperation.h; path = "External Classes/API Handler/Afnetworking/AFURLConnectionOperation.h"; sourceTree = "<group>"; };
+		97FC44091E2E1E3D0050DA59 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFURLConnectionOperation.m; path = "External Classes/API Handler/Afnetworking/AFURLConnectionOperation.m"; sourceTree = "<group>"; };
+		97FC440A1E2E1E3D0050DA59 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = "External Classes/API Handler/Afnetworking/AFURLRequestSerialization.h"; sourceTree = "<group>"; };
+		97FC440B1E2E1E3D0050DA59 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = "External Classes/API Handler/Afnetworking/AFURLRequestSerialization.m"; sourceTree = "<group>"; };
+		97FC440C1E2E1E3D0050DA59 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = "External Classes/API Handler/Afnetworking/AFURLResponseSerialization.h"; sourceTree = "<group>"; };
+		97FC440D1E2E1E3D0050DA59 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = "External Classes/API Handler/Afnetworking/AFURLResponseSerialization.m"; sourceTree = "<group>"; };
+		97FC440E1E2E1E3D0050DA59 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = "External Classes/API Handler/Afnetworking/AFURLSessionManager.h"; sourceTree = "<group>"; };
+		97FC440F1E2E1E3D0050DA59 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = "External Classes/API Handler/Afnetworking/AFURLSessionManager.m"; sourceTree = "<group>"; };
+		97FC44341E2E1F8F0050DA59 /* ChangeRefModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChangeRefModel.h; path = DataModels/Referrals/ChangeRefModel.h; sourceTree = "<group>"; };
+		97FC44351E2E1F8F0050DA59 /* ChangeRefModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChangeRefModel.m; path = DataModels/Referrals/ChangeRefModel.m; sourceTree = "<group>"; };
+		97FC44361E2E1F8F0050DA59 /* GetRefCodeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GetRefCodeModel.h; path = DataModels/Referrals/GetRefCodeModel.h; sourceTree = "<group>"; };
+		97FC44371E2E1F8F0050DA59 /* GetRefCodeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GetRefCodeModel.m; path = DataModels/Referrals/GetRefCodeModel.m; sourceTree = "<group>"; };
+		97FC44381E2E1F8F0050DA59 /* Referrals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Referrals.h; path = DataModels/Referrals/Referrals.h; sourceTree = "<group>"; };
+		97FC44391E2E1F8F0050DA59 /* Referrals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Referrals.m; path = DataModels/Referrals/Referrals.m; sourceTree = "<group>"; };
+		97FC444F1E2E25120050DA59 /* STTarterImports.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STTarterImports.h; path = Main/STTarter/STTarterImports.h; sourceTree = "<group>"; };
+		97FC44501E2E25120050DA59 /* STTarterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STTarterManager.h; path = Main/STTarter/STTarterManager.h; sourceTree = "<group>"; };
+		97FC44511E2E25120050DA59 /* STTarterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STTarterManager.m; path = Main/STTarter/STTarterManager.m; sourceTree = "<group>"; };
+		97FC44581E2E26BE0050DA59 /* STTarterReferrals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STTarterReferrals.h; path = Main/Referrals/STTarterReferrals.h; sourceTree = "<group>"; };
+		97FC44591E2E26BE0050DA59 /* STTarterReferrals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STTarterReferrals.m; path = Main/Referrals/STTarterReferrals.m; sourceTree = "<group>"; };
+		97FC445C1E2E385D0050DA59 /* TrackUsageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TrackUsageModel.h; path = DataModels/Referrals/TrackUsageModel.h; sourceTree = "<group>"; };
+		97FC445D1E2E385D0050DA59 /* TrackUsageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TrackUsageModel.m; path = DataModels/Referrals/TrackUsageModel.m; sourceTree = "<group>"; };
+		97FC44611E2E3A010050DA59 /* AuthModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AuthModel.h; path = DataModels/Login/AuthModel.h; sourceTree = "<group>"; };
+		97FC44621E2E3A010050DA59 /* AuthModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AuthModel.m; path = DataModels/Login/AuthModel.m; sourceTree = "<group>"; };
+		97FC44631E2E3A010050DA59 /* GetOtpModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GetOtpModel.h; path = DataModels/Login/GetOtpModel.h; sourceTree = "<group>"; };
+		97FC44641E2E3A010050DA59 /* GetOtpModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GetOtpModel.m; path = DataModels/Login/GetOtpModel.m; sourceTree = "<group>"; };
+		97FC44651E2E3A010050DA59 /* LoginModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginModel.h; path = DataModels/Login/LoginModel.h; sourceTree = "<group>"; };
+		97FC44661E2E3A010050DA59 /* LoginModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginModel.m; path = DataModels/Login/LoginModel.m; sourceTree = "<group>"; };
+		97FC44671E2E3A010050DA59 /* OtpLoginModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OtpLoginModel.h; path = DataModels/Login/OtpLoginModel.h; sourceTree = "<group>"; };
+		97FC44681E2E3A010050DA59 /* OtpLoginModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OtpLoginModel.m; path = DataModels/Login/OtpLoginModel.m; sourceTree = "<group>"; };
+		97FC44691E2E3A010050DA59 /* SignUpModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SignUpModel.h; path = DataModels/Login/SignUpModel.h; sourceTree = "<group>"; };
+		97FC446A1E2E3A010050DA59 /* SignUpModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SignUpModel.m; path = DataModels/Login/SignUpModel.m; sourceTree = "<group>"; };
+		97FC446B1E2E3A010050DA59 /* SignUpUserInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SignUpUserInfoModel.h; path = DataModels/Login/SignUpUserInfoModel.h; sourceTree = "<group>"; };
+		97FC446C1E2E3A010050DA59 /* SignUpUserInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SignUpUserInfoModel.m; path = DataModels/Login/SignUpUserInfoModel.m; sourceTree = "<group>"; };
+		97FC447C1E2F2C220050DA59 /* BuzzMessagesModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BuzzMessagesModel.h; path = DataModels/Communicator/BuzzMessagesModel.h; sourceTree = "<group>"; };
+		97FC447D1E2F2C220050DA59 /* BuzzMessagesModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BuzzMessagesModel.m; path = DataModels/Communicator/BuzzMessagesModel.m; sourceTree = "<group>"; };
+		97FC44841E2F2C220050DA59 /* MessagesModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MessagesModel.h; path = DataModels/Communicator/MessagesModel.h; sourceTree = "<group>"; };
+		97FC44851E2F2C220050DA59 /* MessagesModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MessagesModel.m; path = DataModels/Communicator/MessagesModel.m; sourceTree = "<group>"; };
+		97FC44861E2F2C220050DA59 /* MyTopicsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyTopicsModel.h; path = DataModels/Communicator/MyTopicsModel.h; sourceTree = "<group>"; };
+		97FC44871E2F2C220050DA59 /* MyTopicsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyTopicsModel.m; path = DataModels/Communicator/MyTopicsModel.m; sourceTree = "<group>"; };
+		97FC44881E2F2C220050DA59 /* PermittedModulesModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PermittedModulesModel.h; path = DataModels/Communicator/PermittedModulesModel.h; sourceTree = "<group>"; };
+		97FC44891E2F2C220050DA59 /* PermittedModulesModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PermittedModulesModel.m; path = DataModels/Communicator/PermittedModulesModel.m; sourceTree = "<group>"; };
+		97FC448C1E2F2C220050DA59 /* TopicsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TopicsModel.h; path = DataModels/Communicator/TopicsModel.h; sourceTree = "<group>"; };
+		97FC448D1E2F2C220050DA59 /* TopicsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TopicsModel.m; path = DataModels/Communicator/TopicsModel.m; sourceTree = "<group>"; };
+		97FC448E1E2F2C220050DA59 /* UsersModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UsersModel.h; path = DataModels/Communicator/UsersModel.h; sourceTree = "<group>"; };
+		97FC448F1E2F2C220050DA59 /* UsersModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UsersModel.m; path = DataModels/Communicator/UsersModel.m; sourceTree = "<group>"; };
+		97FC44A41E2F2C9C0050DA59 /* DatabaseHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DatabaseHandler.h; path = "DataBase Manager/DatabaseHandler.h"; sourceTree = "<group>"; };
+		97FC44A51E2F2C9C0050DA59 /* DatabaseHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DatabaseHandler.m; path = "DataBase Manager/DatabaseHandler.m"; sourceTree = "<group>"; };
+		97FC44AB1E2F2C9C0050DA59 /* Sttarter 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Sttarter 2.xcdatamodel"; sourceTree = "<group>"; };
+		97FC44AC1E2F2C9C0050DA59 /* Sttarter.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Sttarter.xcdatamodel; sourceTree = "<group>"; };
+		97FC44C41E2F3B570050DA59 /* DownloadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DownloadManager.h; path = DownloadManager/DownloadManager.h; sourceTree = "<group>"; };
+		97FC44C51E2F3B570050DA59 /* DownloadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DownloadManager.m; path = DownloadManager/DownloadManager.m; sourceTree = "<group>"; };
+		97FC44C61E2F3B570050DA59 /* DownloadManagerAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DownloadManagerAdditions.h; path = DownloadManager/DownloadManagerAdditions.h; sourceTree = "<group>"; };
+		97FC44C71E2F3B570050DA59 /* DownloadManagerConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DownloadManagerConstants.h; path = DownloadManager/DownloadManagerConstants.h; sourceTree = "<group>"; };
+		E30B8CEC1E768D6900C8C1AA /* MQTT_QueueModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MQTT_QueueModel.h; path = DataModels/Communicator/MQTT_QueueModel.h; sourceTree = "<group>"; };
+		E30B8CED1E768D6900C8C1AA /* MQTT_QueueModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MQTT_QueueModel.m; path = DataModels/Communicator/MQTT_QueueModel.m; sourceTree = "<group>"; };
+		E30D35A01F9F6909004DE252 /* TopicModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TopicModel.h; path = DataModels/Communicator/TopicModel.h; sourceTree = "<group>"; };
+		E30D35A11F9F6909004DE252 /* TopicModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TopicModel.m; path = DataModels/Communicator/TopicModel.m; sourceTree = "<group>"; };
+		E319F4E61E35CC550040CA3E /* STTarterContentSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STTarterContentSystem.h; path = Main/ContentSystem/STTarterContentSystem.h; sourceTree = "<group>"; };
+		E319F4E71E35CC550040CA3E /* STTarterContentSystem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STTarterContentSystem.m; path = Main/ContentSystem/STTarterContentSystem.m; sourceTree = "<group>"; };
+		E359A9351F4D5F0400E72A6B /* TransactionsWalletModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TransactionsWalletModel.h; path = DataModels/Wallet/TransactionsWalletModel.h; sourceTree = "<group>"; };
+		E359A9361F4D5F0400E72A6B /* TransactionsWalletModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TransactionsWalletModel.m; path = DataModels/Wallet/TransactionsWalletModel.m; sourceTree = "<group>"; };
+		E359A93D1F4D620400E72A6B /* transactedByModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = transactedByModel.h; path = DataModels/Wallet/transactedByModel.h; sourceTree = "<group>"; };
+		E359A93E1F4D620400E72A6B /* transactedByModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = transactedByModel.m; path = DataModels/Wallet/transactedByModel.m; sourceTree = "<group>"; };
+		E37FB2141E00086200183781 /* mqtt.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = mqtt.plist; path = Sttarter/mqtt.plist; sourceTree = "<group>"; };
+		E3A61C4B1EAE164400E06821 /* Topics+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Topics+CoreDataClass.h"; path = "DataBase Manager/Topics+CoreDataClass.h"; sourceTree = "<group>"; };
+		E3A61C4C1EAE164400E06821 /* Topics+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Topics+CoreDataClass.m"; path = "DataBase Manager/Topics+CoreDataClass.m"; sourceTree = "<group>"; };
+		E3A61C4D1EAE164400E06821 /* Topics+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Topics+CoreDataProperties.h"; path = "DataBase Manager/Topics+CoreDataProperties.h"; sourceTree = "<group>"; };
+		E3A61C4E1EAE164400E06821 /* Topics+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Topics+CoreDataProperties.m"; path = "DataBase Manager/Topics+CoreDataProperties.m"; sourceTree = "<group>"; };
+		E3A61C531EAE164400E06821 /* MQTT_Queue+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MQTT_Queue+CoreDataClass.h"; path = "DataBase Manager/MQTT_Queue+CoreDataClass.h"; sourceTree = "<group>"; };
+		E3A61C541EAE164400E06821 /* MQTT_Queue+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "MQTT_Queue+CoreDataClass.m"; path = "DataBase Manager/MQTT_Queue+CoreDataClass.m"; sourceTree = "<group>"; };
+		E3A61C551EAE164400E06821 /* MQTT_Queue+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MQTT_Queue+CoreDataProperties.h"; path = "DataBase Manager/MQTT_Queue+CoreDataProperties.h"; sourceTree = "<group>"; };
+		E3A61C561EAE164400E06821 /* MQTT_Queue+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "MQTT_Queue+CoreDataProperties.m"; path = "DataBase Manager/MQTT_Queue+CoreDataProperties.m"; sourceTree = "<group>"; };
+		E3B20B0A1E38A8AC006DB729 /* STTaterCommunicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STTaterCommunicator.h; path = Main/Communicator/STTaterCommunicator.h; sourceTree = "<group>"; };
+		E3B20B0B1E38A8AC006DB729 /* STTaterCommunicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STTaterCommunicator.m; path = Main/Communicator/STTaterCommunicator.m; sourceTree = "<group>"; };
+		E3B20B141E38BE73006DB729 /* ReferrelSignupModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReferrelSignupModel.h; path = DataModels/Referrals/ReferrelSignupModel.h; sourceTree = "<group>"; };
+		E3B20B151E38BE73006DB729 /* ReferrelSignupModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReferrelSignupModel.m; path = DataModels/Referrals/ReferrelSignupModel.m; sourceTree = "<group>"; };
+		E3EDDEA11E5ABD11003323CF /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+MD5.h"; path = "Main/Communicator/NSString+MD5.h"; sourceTree = "<group>"; };
+		E3EDDEA21E5ABD11003323CF /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+MD5.m"; path = "Main/Communicator/NSString+MD5.m"; sourceTree = "<group>"; };
+		E3F004FC1E83E1AD003B9EB2 /* MessageStatusModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MessageStatusModel.h; path = DataModels/Communicator/MessageStatusModel.h; sourceTree = "<group>"; };
+		E3F004FD1E83E1AD003B9EB2 /* MessageStatusModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MessageStatusModel.m; path = DataModels/Communicator/MessageStatusModel.m; sourceTree = "<group>"; };
+		E3F280FC1E8D06260004F6A2 /* Topic_GroupMembers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Topic_GroupMembers.h; path = DataModels/Communicator/Topic_GroupMembers.h; sourceTree = "<group>"; };
+		E3F280FD1E8D06260004F6A2 /* Topic_GroupMembers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Topic_GroupMembers.m; path = DataModels/Communicator/Topic_GroupMembers.m; sourceTree = "<group>"; };
+		E3F471DD1E713D8F00FBADB7 /* Reachability.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = Pods/Reachability/Reachability.h; sourceTree = "<group>"; };
+		E3F532DF1E4DDB0B002DD9E2 /* InteractedWithModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InteractedWithModel.h; path = DataModels/Communicator/InteractedWithModel.h; sourceTree = "<group>"; };
+		E3F532E01E4DDB0B002DD9E2 /* InteractedWithModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InteractedWithModel.m; path = DataModels/Communicator/InteractedWithModel.m; sourceTree = "<group>"; };
+		E3F6CDC21EA88B6A004AF1DF /* TopicMessageStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TopicMessageStatus.h; path = DataModels/Communicator/TopicMessageStatus.h; sourceTree = "<group>"; };
+		E3F6CDC31EA88B6A004AF1DF /* TopicMessageStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TopicMessageStatus.m; path = DataModels/Communicator/TopicMessageStatus.m; sourceTree = "<group>"; };
+		E3F824D21E64375700E79E17 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		E3F824D31E64375700E79E17 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		E3FDBE231E5863FE00B70F15 /* TopicMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TopicMessage.h; path = DataModels/Communicator/TopicMessage.h; sourceTree = "<group>"; };
+		E3FDBE241E5863FE00B70F15 /* TopicMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TopicMessage.m; path = DataModels/Communicator/TopicMessage.m; sourceTree = "<group>"; };
+		E3FDBE271E5866EF00B70F15 /* TopicMessageDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TopicMessageDetail.h; path = DataModels/Communicator/TopicMessageDetail.h; sourceTree = "<group>"; };
+		E3FDBE281E5866EF00B70F15 /* TopicMessageDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TopicMessageDetail.m; path = DataModels/Communicator/TopicMessageDetail.m; sourceTree = "<group>"; };
+		E3FF49091EB8B9D9008B1A38 /* TopicMessageEntity+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "TopicMessageEntity+CoreDataClass.h"; path = "DataBase Manager/TopicMessageEntity+CoreDataClass.h"; sourceTree = "<group>"; };
+		E3FF490A1EB8B9D9008B1A38 /* TopicMessageEntity+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "TopicMessageEntity+CoreDataClass.m"; path = "DataBase Manager/TopicMessageEntity+CoreDataClass.m"; sourceTree = "<group>"; };
+		E3FF490B1EB8B9D9008B1A38 /* TopicMessageEntity+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "TopicMessageEntity+CoreDataProperties.h"; path = "DataBase Manager/TopicMessageEntity+CoreDataProperties.h"; sourceTree = "<group>"; };
+		E3FF490C1EB8B9D9008B1A38 /* TopicMessageEntity+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "TopicMessageEntity+CoreDataProperties.m"; path = "DataBase Manager/TopicMessageEntity+CoreDataProperties.m"; sourceTree = "<group>"; };
+		E3FF490D1EB8B9D9008B1A38 /* TopicMessageStatusEntity+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "TopicMessageStatusEntity+CoreDataClass.h"; path = "DataBase Manager/TopicMessageStatusEntity+CoreDataClass.h"; sourceTree = "<group>"; };
+		E3FF490E1EB8B9D9008B1A38 /* TopicMessageStatusEntity+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "TopicMessageStatusEntity+CoreDataClass.m"; path = "DataBase Manager/TopicMessageStatusEntity+CoreDataClass.m"; sourceTree = "<group>"; };
+		E3FF490F1EB8B9D9008B1A38 /* TopicMessageStatusEntity+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "TopicMessageStatusEntity+CoreDataProperties.h"; path = "DataBase Manager/TopicMessageStatusEntity+CoreDataProperties.h"; sourceTree = "<group>"; };
+		E3FF49101EB8B9D9008B1A38 /* TopicMessageStatusEntity+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "TopicMessageStatusEntity+CoreDataProperties.m"; path = "DataBase Manager/TopicMessageStatusEntity+CoreDataProperties.m"; sourceTree = "<group>"; };
+		E3FF49111EB8B9D9008B1A38 /* TopicMessageDetailEntity+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "TopicMessageDetailEntity+CoreDataClass.h"; path = "DataBase Manager/TopicMessageDetailEntity+CoreDataClass.h"; sourceTree = "<group>"; };
+		E3FF49121EB8B9D9008B1A38 /* TopicMessageDetailEntity+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "TopicMessageDetailEntity+CoreDataClass.m"; path = "DataBase Manager/TopicMessageDetailEntity+CoreDataClass.m"; sourceTree = "<group>"; };
+		E3FF49131EB8B9D9008B1A38 /* TopicMessageDetailEntity+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "TopicMessageDetailEntity+CoreDataProperties.h"; path = "DataBase Manager/TopicMessageDetailEntity+CoreDataProperties.h"; sourceTree = "<group>"; };
+		E3FF49141EB8B9D9008B1A38 /* TopicMessageDetailEntity+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "TopicMessageDetailEntity+CoreDataProperties.m"; path = "DataBase Manager/TopicMessageDetailEntity+CoreDataProperties.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55B2D6531DCB6DC7008B65CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				811749E72482A7BABFEA1C3F /* libPods-Sttarter.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D4932522CA75E9D2C463A00 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				412B80BEB4192059DED7D91F /* Pods-Sttarter.debug.xcconfig */,
+				63B1F78FEBED1BE8C18F1F86 /* Pods-Sttarter.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		55B2D64D1DCB6DC7008B65CA = {
+			isa = PBXGroup;
+			children = (
+				E3F471DD1E713D8F00FBADB7 /* Reachability.h */,
+				97FC44481E2E232A0050DA59 /* STTarter */,
+				E3F75C711DD1BE9C00D9E880 /* DataBase_Classes */,
+				97FC44261E2E1EB70050DA59 /* Download Manager */,
+				97FC43FC1E2E19D50050DA59 /* External Classes */,
+				55320CFD1DD18EAC000D45F0 /* Info.plist */,
+				55B2D6581DCB6DC7008B65CA /* Products */,
+				3D4932522CA75E9D2C463A00 /* Pods */,
+				FA9C71F503D032B57AD375C3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		55B2D6581DCB6DC7008B65CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55B2D6571DCB6DC7008B65CA /* Sttarter.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		973C662A1E48867700CA6F20 /* WalletModel */ = {
+			isa = PBXGroup;
+			children = (
+				973C66371E488BF000CA6F20 /* CreateWalletBaseModel.h */,
+				973C66381E488BF000CA6F20 /* CreateWalletBaseModel.m */,
+				973C66331E488BAD00CA6F20 /* CreateWalletModel.h */,
+				973C66341E488BAD00CA6F20 /* CreateWalletModel.m */,
+				97F327571E49C0BF00880D62 /* WalletListModel.h */,
+				97F327581E49C0BF00880D62 /* WalletListModel.m */,
+				97F3275B1E49C1BF00880D62 /* WalletMembersModel.h */,
+				97F3275C1E49C1BF00880D62 /* WalletMembersModel.m */,
+				974573EF1E49CE00009A8720 /* WalletListbaseModel.h */,
+				974573F01E49CE00009A8720 /* WalletListbaseModel.m */,
+				97F3274F1E49A53500880D62 /* AddmemberBaseModel.h */,
+				97F327501E49A53500880D62 /* AddmemberBaseModel.m */,
+				97F327531E49A55100880D62 /* AddMemberModel.h */,
+				97F327541E49A55100880D62 /* AddMemberModel.m */,
+				97AD4A991E4AE28900570630 /* GetWalletDetailsModel.h */,
+				97AD4A9A1E4AE28900570630 /* GetWalletDetailsModel.m */,
+				971FC4501E4AE57E0074255D /* WalletTransactionsModel.h */,
+				971FC4511E4AE57E0074255D /* WalletTransactionsModel.m */,
+				97AC7C7F1E4B22180097D524 /* WalletDepositBaseModel.h */,
+				97AC7C801E4B22180097D524 /* WalletDepositBaseModel.m */,
+				97AC7C831E4B22910097D524 /* WalletDeposit.h */,
+				97AC7C841E4B22910097D524 /* WalletDeposit.m */,
+				97D8E5F91E4B422E006F931B /* TransferFundBaseModel.h */,
+				97D8E5FA1E4B422E006F931B /* TransferFundBaseModel.m */,
+				97D8E5FD1E4B426F006F931B /* TransferFundModel.h */,
+				97D8E5FE1E4B426F006F931B /* TransferFundModel.m */,
+				9733A7E41E4D916900BF5A6E /* WithdrawModel.h */,
+				9733A7E51E4D916900BF5A6E /* WithdrawModel.m */,
+				9703BA2F1E51BC62009CE372 /* SubwalletModel.h */,
+				9703BA301E51BC62009CE372 /* SubwalletModel.m */,
+				9703BA331E51BD4C009CE372 /* AdminwalletModel.h */,
+				9703BA341E51BD4C009CE372 /* AdminwalletModel.m */,
+				9703BA371E51BD9C009CE372 /* MemberswithWalletModel.h */,
+				9703BA381E51BD9C009CE372 /* MemberswithWalletModel.m */,
+				9703BA3B1E51BF86009CE372 /* WalletModel.h */,
+				9703BA3C1E51BF86009CE372 /* WalletModel.m */,
+				9703BA3F1E51C06F009CE372 /* WalletMemberModel.h */,
+				9703BA401E51C06F009CE372 /* WalletMemberModel.m */,
+				E359A9351F4D5F0400E72A6B /* TransactionsWalletModel.h */,
+				E359A9361F4D5F0400E72A6B /* TransactionsWalletModel.m */,
+				E359A93D1F4D620400E72A6B /* transactedByModel.h */,
+				E359A93E1F4D620400E72A6B /* transactedByModel.m */,
+			);
+			name = WalletModel;
+			sourceTree = "<group>";
+		};
+		97CCC0261E31EA5B0054D8BB /* CouponModels */ = {
+			isa = PBXGroup;
+			children = (
+				977D867F1E37653A00B89544 /* CouponModel.h */,
+				977D86801E37653A00B89544 /* CouponModel.m */,
+				97016EDE1E375BD000A17845 /* CouponResultModel.h */,
+				97016EDF1E375BD000A17845 /* CouponResultModel.m */,
+			);
+			name = CouponModels;
+			sourceTree = "<group>";
+		};
+		97CD02751E41F7F2007E3D36 /* Wallets */ = {
+			isa = PBXGroup;
+			children = (
+				973C662A1E48867700CA6F20 /* WalletModel */,
+				97CD02761E41F828007E3D36 /* WalletManager.h */,
+				97CD02771E41F828007E3D36 /* WalletManager.m */,
+			);
+			name = Wallets;
+			sourceTree = "<group>";
+		};
+		97FC43FC1E2E19D50050DA59 /* External Classes */ = {
+			isa = PBXGroup;
+			children = (
+				97FC44231E2E1E700050DA59 /* API Manager */,
+			);
+			name = "External Classes";
+			sourceTree = "<group>";
+		};
+		97FC44231E2E1E700050DA59 /* API Manager */ = {
+			isa = PBXGroup;
+			children = (
+				E3F75C741DD1BEF000D9E880 /* JSON */,
+				E3F75C721DD1BEC400D9E880 /* AFNetworking */,
+			);
+			name = "API Manager";
+			sourceTree = "<group>";
+		};
+		97FC44261E2E1EB70050DA59 /* Download Manager */ = {
+			isa = PBXGroup;
+			children = (
+				97FC44C41E2F3B570050DA59 /* DownloadManager.h */,
+				97FC44C51E2F3B570050DA59 /* DownloadManager.m */,
+				97FC44C71E2F3B570050DA59 /* DownloadManagerConstants.h */,
+				97FC44C61E2F3B570050DA59 /* DownloadManagerAdditions.h */,
+			);
+			name = "Download Manager";
+			sourceTree = "<group>";
+		};
+		97FC44321E2E1F110050DA59 /* ReferralDataModels */ = {
+			isa = PBXGroup;
+			children = (
+				E3B20B141E38BE73006DB729 /* ReferrelSignupModel.h */,
+				E3B20B151E38BE73006DB729 /* ReferrelSignupModel.m */,
+				97FC445C1E2E385D0050DA59 /* TrackUsageModel.h */,
+				97FC445D1E2E385D0050DA59 /* TrackUsageModel.m */,
+				97FC44341E2E1F8F0050DA59 /* ChangeRefModel.h */,
+				97FC44351E2E1F8F0050DA59 /* ChangeRefModel.m */,
+				97FC44361E2E1F8F0050DA59 /* GetRefCodeModel.h */,
+				97FC44371E2E1F8F0050DA59 /* GetRefCodeModel.m */,
+				97FC44381E2E1F8F0050DA59 /* Referrals.h */,
+				97FC44391E2E1F8F0050DA59 /* Referrals.m */,
+			);
+			name = ReferralDataModels;
+			sourceTree = "<group>";
+		};
+		97FC44481E2E232A0050DA59 /* STTarter */ = {
+			isa = PBXGroup;
+			children = (
+				E3F824D11E64373300E79E17 /* common */,
+				97CD02751E41F7F2007E3D36 /* Wallets */,
+				E319F4E51E35CBB00040CA3E /* ContentSystem */,
+				97FC447A1E2F2BBA0050DA59 /* Communicator */,
+				97FC44791E2F2B6F0050DA59 /* STTarterManager */,
+				97FC444A1E2E24610050DA59 /* Coupons */,
+				97FC44491E2E24560050DA59 /* Referrals */,
+			);
+			name = STTarter;
+			sourceTree = "<group>";
+		};
+		97FC44491E2E24560050DA59 /* Referrals */ = {
+			isa = PBXGroup;
+			children = (
+				97FC44321E2E1F110050DA59 /* ReferralDataModels */,
+				97FC44581E2E26BE0050DA59 /* STTarterReferrals.h */,
+				97FC44591E2E26BE0050DA59 /* STTarterReferrals.m */,
+			);
+			name = Referrals;
+			sourceTree = "<group>";
+		};
+		97FC444A1E2E24610050DA59 /* Coupons */ = {
+			isa = PBXGroup;
+			children = (
+				97CCC0261E31EA5B0054D8BB /* CouponModels */,
+				97CCC02F1E32001C0054D8BB /* CouponManager.h */,
+				97CCC0301E32001C0054D8BB /* CouponManager.m */,
+			);
+			name = Coupons;
+			sourceTree = "<group>";
+		};
+		97FC44601E2E39F20050DA59 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E30B8CEC1E768D6900C8C1AA /* MQTT_QueueModel.h */,
+				E30B8CED1E768D6900C8C1AA /* MQTT_QueueModel.m */,
+				97FC44611E2E3A010050DA59 /* AuthModel.h */,
+				97FC44621E2E3A010050DA59 /* AuthModel.m */,
+				97FC44631E2E3A010050DA59 /* GetOtpModel.h */,
+				97FC44641E2E3A010050DA59 /* GetOtpModel.m */,
+				97FC44651E2E3A010050DA59 /* LoginModel.h */,
+				97FC44661E2E3A010050DA59 /* LoginModel.m */,
+				97FC44671E2E3A010050DA59 /* OtpLoginModel.h */,
+				97FC44681E2E3A010050DA59 /* OtpLoginModel.m */,
+				97FC44691E2E3A010050DA59 /* SignUpModel.h */,
+				97FC446A1E2E3A010050DA59 /* SignUpModel.m */,
+				97FC446B1E2E3A010050DA59 /* SignUpUserInfoModel.h */,
+				97FC446C1E2E3A010050DA59 /* SignUpUserInfoModel.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		97FC44791E2F2B6F0050DA59 /* STTarterManager */ = {
+			isa = PBXGroup;
+			children = (
+				97FC44601E2E39F20050DA59 /* Models */,
+				97FC444F1E2E25120050DA59 /* STTarterImports.h */,
+				97FC44501E2E25120050DA59 /* STTarterManager.h */,
+				97FC44511E2E25120050DA59 /* STTarterManager.m */,
+			);
+			name = STTarterManager;
+			sourceTree = "<group>";
+		};
+		97FC447A1E2F2BBA0050DA59 /* Communicator */ = {
+			isa = PBXGroup;
+			children = (
+				E3F75C731DD1BEE000D9E880 /* MQTT */,
+				97FC447B1E2F2C0E0050DA59 /* CommunicatorModels */,
+				E3B20B0A1E38A8AC006DB729 /* STTaterCommunicator.h */,
+				E3B20B0B1E38A8AC006DB729 /* STTaterCommunicator.m */,
+			);
+			name = Communicator;
+			sourceTree = "<group>";
+		};
+		97FC447B1E2F2C0E0050DA59 /* CommunicatorModels */ = {
+			isa = PBXGroup;
+			children = (
+				97FC447C1E2F2C220050DA59 /* BuzzMessagesModel.h */,
+				97FC447D1E2F2C220050DA59 /* BuzzMessagesModel.m */,
+				97FC44841E2F2C220050DA59 /* MessagesModel.h */,
+				97FC44851E2F2C220050DA59 /* MessagesModel.m */,
+				97FC44861E2F2C220050DA59 /* MyTopicsModel.h */,
+				97FC44871E2F2C220050DA59 /* MyTopicsModel.m */,
+				97FC44881E2F2C220050DA59 /* PermittedModulesModel.h */,
+				97FC44891E2F2C220050DA59 /* PermittedModulesModel.m */,
+				97FC448C1E2F2C220050DA59 /* TopicsModel.h */,
+				97FC448D1E2F2C220050DA59 /* TopicsModel.m */,
+				97FC448E1E2F2C220050DA59 /* UsersModel.h */,
+				97FC448F1E2F2C220050DA59 /* UsersModel.m */,
+				E3F532DF1E4DDB0B002DD9E2 /* InteractedWithModel.h */,
+				E3F532E01E4DDB0B002DD9E2 /* InteractedWithModel.m */,
+				978DB9AA1E54693300F0DC95 /* GetMessagesModel.h */,
+				978DB9AB1E54693300F0DC95 /* GetMessagesModel.m */,
+				E3FDBE231E5863FE00B70F15 /* TopicMessage.h */,
+				E3FDBE241E5863FE00B70F15 /* TopicMessage.m */,
+				E3FDBE271E5866EF00B70F15 /* TopicMessageDetail.h */,
+				E3FDBE281E5866EF00B70F15 /* TopicMessageDetail.m */,
+				E3F6CDC21EA88B6A004AF1DF /* TopicMessageStatus.h */,
+				E3F6CDC31EA88B6A004AF1DF /* TopicMessageStatus.m */,
+				E3F004FC1E83E1AD003B9EB2 /* MessageStatusModel.h */,
+				E3F004FD1E83E1AD003B9EB2 /* MessageStatusModel.m */,
+				E3F280FC1E8D06260004F6A2 /* Topic_GroupMembers.h */,
+				E3F280FD1E8D06260004F6A2 /* Topic_GroupMembers.m */,
+				E30D35A01F9F6909004DE252 /* TopicModel.h */,
+				E30D35A11F9F6909004DE252 /* TopicModel.m */,
+			);
+			name = CommunicatorModels;
+			sourceTree = "<group>";
+		};
+		E319F4E51E35CBB00040CA3E /* ContentSystem */ = {
+			isa = PBXGroup;
+			children = (
+				E319F4E61E35CC550040CA3E /* STTarterContentSystem.h */,
+				E319F4E71E35CC550040CA3E /* STTarterContentSystem.m */,
+			);
+			name = ContentSystem;
+			sourceTree = "<group>";
+		};
+		E3F75C711DD1BE9C00D9E880 /* DataBase_Classes */ = {
+			isa = PBXGroup;
+			children = (
+				97FC44AA1E2F2C9C0050DA59 /* Sttarter.xcdatamodeld */,
+				97FC44A41E2F2C9C0050DA59 /* DatabaseHandler.h */,
+				97FC44A51E2F2C9C0050DA59 /* DatabaseHandler.m */,
+				E3FF49091EB8B9D9008B1A38 /* TopicMessageEntity+CoreDataClass.h */,
+				E3FF490A1EB8B9D9008B1A38 /* TopicMessageEntity+CoreDataClass.m */,
+				E3FF490B1EB8B9D9008B1A38 /* TopicMessageEntity+CoreDataProperties.h */,
+				E3FF490C1EB8B9D9008B1A38 /* TopicMessageEntity+CoreDataProperties.m */,
+				E3FF490D1EB8B9D9008B1A38 /* TopicMessageStatusEntity+CoreDataClass.h */,
+				E3FF490E1EB8B9D9008B1A38 /* TopicMessageStatusEntity+CoreDataClass.m */,
+				E3FF490F1EB8B9D9008B1A38 /* TopicMessageStatusEntity+CoreDataProperties.h */,
+				E3FF49101EB8B9D9008B1A38 /* TopicMessageStatusEntity+CoreDataProperties.m */,
+				E3FF49111EB8B9D9008B1A38 /* TopicMessageDetailEntity+CoreDataClass.h */,
+				E3FF49121EB8B9D9008B1A38 /* TopicMessageDetailEntity+CoreDataClass.m */,
+				E3FF49131EB8B9D9008B1A38 /* TopicMessageDetailEntity+CoreDataProperties.h */,
+				E3FF49141EB8B9D9008B1A38 /* TopicMessageDetailEntity+CoreDataProperties.m */,
+				E3A61C4B1EAE164400E06821 /* Topics+CoreDataClass.h */,
+				E3A61C4C1EAE164400E06821 /* Topics+CoreDataClass.m */,
+				E3A61C4D1EAE164400E06821 /* Topics+CoreDataProperties.h */,
+				E3A61C4E1EAE164400E06821 /* Topics+CoreDataProperties.m */,
+				E3A61C531EAE164400E06821 /* MQTT_Queue+CoreDataClass.h */,
+				E3A61C541EAE164400E06821 /* MQTT_Queue+CoreDataClass.m */,
+				E3A61C551EAE164400E06821 /* MQTT_Queue+CoreDataProperties.h */,
+				E3A61C561EAE164400E06821 /* MQTT_Queue+CoreDataProperties.m */,
+			);
+			name = DataBase_Classes;
+			sourceTree = "<group>";
+		};
+		E3F75C721DD1BEC400D9E880 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				97FC43FD1E2E1E3D0050DA59 /* AFHTTPRequestOperation.h */,
+				97FC43FE1E2E1E3D0050DA59 /* AFHTTPRequestOperation.m */,
+				97FC43FF1E2E1E3D0050DA59 /* AFHTTPRequestOperationManager.h */,
+				97FC44001E2E1E3D0050DA59 /* AFHTTPRequestOperationManager.m */,
+				97FC44011E2E1E3D0050DA59 /* AFHTTPSessionManager.h */,
+				97FC44021E2E1E3D0050DA59 /* AFHTTPSessionManager.m */,
+				97FC44031E2E1E3D0050DA59 /* AFNetworking.h */,
+				97FC44041E2E1E3D0050DA59 /* AFNetworkReachabilityManager.h */,
+				97FC44051E2E1E3D0050DA59 /* AFNetworkReachabilityManager.m */,
+				97FC44061E2E1E3D0050DA59 /* AFSecurityPolicy.h */,
+				97FC44071E2E1E3D0050DA59 /* AFSecurityPolicy.m */,
+				97FC44081E2E1E3D0050DA59 /* AFURLConnectionOperation.h */,
+				97FC44091E2E1E3D0050DA59 /* AFURLConnectionOperation.m */,
+				97FC440A1E2E1E3D0050DA59 /* AFURLRequestSerialization.h */,
+				97FC440B1E2E1E3D0050DA59 /* AFURLRequestSerialization.m */,
+				97FC440C1E2E1E3D0050DA59 /* AFURLResponseSerialization.h */,
+				97FC440D1E2E1E3D0050DA59 /* AFURLResponseSerialization.m */,
+				97FC440E1E2E1E3D0050DA59 /* AFURLSessionManager.h */,
+				97FC440F1E2E1E3D0050DA59 /* AFURLSessionManager.m */,
+			);
+			name = AFNetworking;
+			sourceTree = "<group>";
+		};
+		E3F75C731DD1BEE000D9E880 /* MQTT */ = {
+			isa = PBXGroup;
+			children = (
+				55320CD71DD18DFD000D45F0 /* MQTTCFSocketDecoder.h */,
+				55320CD81DD18DFD000D45F0 /* MQTTCFSocketEncoder.h */,
+				55320CD91DD18DFD000D45F0 /* MQTTCFSocketTransport.h */,
+				55320CDA1DD18DFD000D45F0 /* MQTTClient.h */,
+				55320CDB1DD18DFD000D45F0 /* MQTTCoreDataPersistence.h */,
+				55320CDC1DD18DFD000D45F0 /* MQTTDecoder.h */,
+				55320CDD1DD18DFD000D45F0 /* MQTTInMemoryPersistence.h */,
+				55320CDE1DD18DFD000D45F0 /* MQTTLog.h */,
+				55320CDF1DD18DFD000D45F0 /* MQTTMessage.h */,
+				55320CE01DD18DFD000D45F0 /* MQTTPersistence.h */,
+				55320CE11DD18DFD000D45F0 /* MQTTSession.h */,
+				55320CE21DD18DFD000D45F0 /* MQTTSessionLegacy.h */,
+				55320CE31DD18DFD000D45F0 /* MQTTSessionManager.h */,
+				55320CE41DD18DFD000D45F0 /* MQTTSessionSynchron.h */,
+				55320CE51DD18DFD000D45F0 /* MQTTSSLSecurityPolicy.h */,
+				55320CE61DD18DFD000D45F0 /* MQTTSSLSecurityPolicyDecoder.h */,
+				55320CE71DD18DFD000D45F0 /* MQTTSSLSecurityPolicyEncoder.h */,
+				55320CE81DD18DFD000D45F0 /* MQTTSSLSecurityPolicyTransport.h */,
+				55320CE91DD18DFD000D45F0 /* MQTTTransport.h */,
+				E37FB2141E00086200183781 /* mqtt.plist */,
+			);
+			name = MQTT;
+			sourceTree = "<group>";
+		};
+		E3F75C741DD1BEF000D9E880 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				55320CC51DD18DED000D45F0 /* JSONAPI.h */,
+				55320CC61DD18DED000D45F0 /* JSONHTTPClient.h */,
+				55320CC71DD18DED000D45F0 /* JSONKeyMapper.h */,
+				55320CC81DD18DED000D45F0 /* JSONModel.h */,
+				55320CC91DD18DED000D45F0 /* JSONModel+networking.h */,
+				55320CCA1DD18DED000D45F0 /* JSONModelClassProperty.h */,
+				55320CCB1DD18DED000D45F0 /* JSONModelError.h */,
+				55320CCC1DD18DED000D45F0 /* JSONModelLib.h */,
+				55320CCD1DD18DED000D45F0 /* JSONValueTransformer.h */,
+			);
+			name = JSON;
+			sourceTree = "<group>";
+		};
+		E3F824D11E64373300E79E17 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				E3EDDEA11E5ABD11003323CF /* NSString+MD5.h */,
+				E3EDDEA21E5ABD11003323CF /* NSString+MD5.m */,
+				E3F824D21E64375700E79E17 /* Utils.h */,
+				E3F824D31E64375700E79E17 /* Utils.m */,
+			);
+			name = common;
+			sourceTree = "<group>";
+		};
+		FA9C71F503D032B57AD375C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0DDB81F1A0447C4DEE08B6D3 /* libPods-Sttarter.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		55B2D6541DCB6DC7008B65CA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55320CEA1DD18DFD000D45F0 /* MQTTCFSocketDecoder.h in Headers */,
+				55320CEB1DD18DFD000D45F0 /* MQTTCFSocketEncoder.h in Headers */,
+				55320CEC1DD18DFD000D45F0 /* MQTTCFSocketTransport.h in Headers */,
+				55320CED1DD18DFD000D45F0 /* MQTTClient.h in Headers */,
+				55320CEE1DD18DFD000D45F0 /* MQTTCoreDataPersistence.h in Headers */,
+				55320CEF1DD18DFD000D45F0 /* MQTTDecoder.h in Headers */,
+				55320CF01DD18DFD000D45F0 /* MQTTInMemoryPersistence.h in Headers */,
+				55320CF11DD18DFD000D45F0 /* MQTTLog.h in Headers */,
+				55320CF21DD18DFD000D45F0 /* MQTTMessage.h in Headers */,
+				55320CF31DD18DFD000D45F0 /* MQTTPersistence.h in Headers */,
+				55320CF41DD18DFD000D45F0 /* MQTTSession.h in Headers */,
+				55320CF51DD18DFD000D45F0 /* MQTTSessionLegacy.h in Headers */,
+				55320CF61DD18DFD000D45F0 /* MQTTSessionManager.h in Headers */,
+				55320CF71DD18DFD000D45F0 /* MQTTSessionSynchron.h in Headers */,
+				55320CF81DD18DFD000D45F0 /* MQTTSSLSecurityPolicy.h in Headers */,
+				97FC44211E2E1E3D0050DA59 /* AFURLSessionManager.h in Headers */,
+				97FC44711E2E3A010050DA59 /* LoginModel.h in Headers */,
+				97FC44731E2E3A010050DA59 /* OtpLoginModel.h in Headers */,
+				97FC44751E2E3A010050DA59 /* SignUpModel.h in Headers */,
+				97FC441B1E2E1E3D0050DA59 /* AFURLConnectionOperation.h in Headers */,
+				97FC44121E2E1E3D0050DA59 /* AFHTTPRequestOperationManager.h in Headers */,
+				97FC44551E2E25120050DA59 /* STTarterImports.h in Headers */,
+				97FC44981E2F2C220050DA59 /* MessagesModel.h in Headers */,
+				97FC44C81E2F3B570050DA59 /* DownloadManager.h in Headers */,
+				97FC44771E2E3A010050DA59 /* SignUpUserInfoModel.h in Headers */,
+				97FC449A1E2F2C220050DA59 /* MyTopicsModel.h in Headers */,
+				97FC44A01E2F2C220050DA59 /* TopicsModel.h in Headers */,
+				97FC445E1E2E385D0050DA59 /* TrackUsageModel.h in Headers */,
+				97FC446F1E2E3A010050DA59 /* GetOtpModel.h in Headers */,
+				97FC44CA1E2F3B570050DA59 /* DownloadManagerAdditions.h in Headers */,
+				97FC44101E2E1E3D0050DA59 /* AFHTTPRequestOperation.h in Headers */,
+				97FC44171E2E1E3D0050DA59 /* AFNetworkReachabilityManager.h in Headers */,
+				97FC44401E2E1F8F0050DA59 /* Referrals.h in Headers */,
+				97FC44901E2F2C220050DA59 /* BuzzMessagesModel.h in Headers */,
+				97FC445A1E2E26BE0050DA59 /* STTarterReferrals.h in Headers */,
+				97FC44191E2E1E3D0050DA59 /* AFSecurityPolicy.h in Headers */,
+				97FC441F1E2E1E3D0050DA59 /* AFURLResponseSerialization.h in Headers */,
+				97FC44B11E2F2C9C0050DA59 /* DatabaseHandler.h in Headers */,
+				97FC44561E2E25120050DA59 /* STTarterManager.h in Headers */,
+				97FC449C1E2F2C220050DA59 /* PermittedModulesModel.h in Headers */,
+				97FC443E1E2E1F8F0050DA59 /* GetRefCodeModel.h in Headers */,
+				97FC44141E2E1E3D0050DA59 /* AFHTTPSessionManager.h in Headers */,
+				97FC441D1E2E1E3D0050DA59 /* AFURLRequestSerialization.h in Headers */,
+				97FC446D1E2E3A010050DA59 /* AuthModel.h in Headers */,
+				97FC443C1E2E1F8F0050DA59 /* ChangeRefModel.h in Headers */,
+				97FC44161E2E1E3D0050DA59 /* AFNetworking.h in Headers */,
+				97FC44A21E2F2C220050DA59 /* UsersModel.h in Headers */,
+				97FC44CB1E2F3B570050DA59 /* DownloadManagerConstants.h in Headers */,
+				55320CF91DD18DFD000D45F0 /* MQTTSSLSecurityPolicyDecoder.h in Headers */,
+				55320CFA1DD18DFD000D45F0 /* MQTTSSLSecurityPolicyEncoder.h in Headers */,
+				55320CFB1DD18DFD000D45F0 /* MQTTSSLSecurityPolicyTransport.h in Headers */,
+				55320CFC1DD18DFD000D45F0 /* MQTTTransport.h in Headers */,
+				55320CCE1DD18DED000D45F0 /* JSONAPI.h in Headers */,
+				55320CCF1DD18DED000D45F0 /* JSONHTTPClient.h in Headers */,
+				55320CD01DD18DED000D45F0 /* JSONKeyMapper.h in Headers */,
+				55320CD11DD18DED000D45F0 /* JSONModel.h in Headers */,
+				55320CD21DD18DED000D45F0 /* JSONModel+networking.h in Headers */,
+				55320CD31DD18DED000D45F0 /* JSONModelClassProperty.h in Headers */,
+				E319F4E81E35CC550040CA3E /* STTarterContentSystem.h in Headers */,
+				97016EE01E375BD000A17845 /* CouponResultModel.h in Headers */,
+				977D86811E37653A00B89544 /* CouponModel.h in Headers */,
+				55320CD41DD18DED000D45F0 /* JSONModelError.h in Headers */,
+				97CCC0311E32001C0054D8BB /* CouponManager.h in Headers */,
+				E3B20B161E38BE73006DB729 /* ReferrelSignupModel.h in Headers */,
+				E3B20B0C1E38A8AC006DB729 /* STTaterCommunicator.h in Headers */,
+				97CD02781E41F828007E3D36 /* WalletManager.h in Headers */,
+				973C66391E488BF000CA6F20 /* CreateWalletBaseModel.h in Headers */,
+				97F327591E49C0BF00880D62 /* WalletListModel.h in Headers */,
+				97F3275D1E49C1BF00880D62 /* WalletMembersModel.h in Headers */,
+				97F327551E49A55100880D62 /* AddMemberModel.h in Headers */,
+				97F327511E49A53500880D62 /* AddmemberBaseModel.h in Headers */,
+				973C66351E488BAD00CA6F20 /* CreateWalletModel.h in Headers */,
+				55320CD51DD18DED000D45F0 /* JSONModelLib.h in Headers */,
+				97AD4A9B1E4AE28900570630 /* GetWalletDetailsModel.h in Headers */,
+				97AC7C851E4B22910097D524 /* WalletDeposit.h in Headers */,
+				97D8E5FB1E4B422E006F931B /* TransferFundBaseModel.h in Headers */,
+				97D8E5FF1E4B426F006F931B /* TransferFundModel.h in Headers */,
+				97AC7C811E4B22180097D524 /* WalletDepositBaseModel.h in Headers */,
+				971FC4521E4AE57E0074255D /* WalletTransactionsModel.h in Headers */,
+				9703BA311E51BC62009CE372 /* SubwalletModel.h in Headers */,
+				9703BA411E51C06F009CE372 /* WalletMemberModel.h in Headers */,
+				9703BA3D1E51BF86009CE372 /* WalletModel.h in Headers */,
+				9703BA391E51BD9C009CE372 /* MemberswithWalletModel.h in Headers */,
+				9703BA351E51BD4C009CE372 /* AdminwalletModel.h in Headers */,
+				E3F532E11E4DDB0B002DD9E2 /* InteractedWithModel.h in Headers */,
+				978DB9AC1E54693300F0DC95 /* GetMessagesModel.h in Headers */,
+				974573F11E49CE00009A8720 /* WalletListbaseModel.h in Headers */,
+				E3FDBE291E5866EF00B70F15 /* TopicMessageDetail.h in Headers */,
+				E3FDBE251E5863FE00B70F15 /* TopicMessage.h in Headers */,
+				E3FF49171EB8B9D9008B1A38 /* TopicMessageEntity+CoreDataProperties.h in Headers */,
+				E3FF49151EB8B9D9008B1A38 /* TopicMessageEntity+CoreDataClass.h in Headers */,
+				E3FF49191EB8B9D9008B1A38 /* TopicMessageStatusEntity+CoreDataClass.h in Headers */,
+				E3A61C671EAE164500E06821 /* MQTT_Queue+CoreDataClass.h in Headers */,
+				E3FF491D1EB8B9D9008B1A38 /* TopicMessageDetailEntity+CoreDataClass.h in Headers */,
+				E3A61C5F1EAE164500E06821 /* Topics+CoreDataClass.h in Headers */,
+				E3A61C611EAE164500E06821 /* Topics+CoreDataProperties.h in Headers */,
+				E3FF491F1EB8B9D9008B1A38 /* TopicMessageDetailEntity+CoreDataProperties.h in Headers */,
+				E3FF491B1EB8B9D9008B1A38 /* TopicMessageStatusEntity+CoreDataProperties.h in Headers */,
+				E3A61C691EAE164500E06821 /* MQTT_Queue+CoreDataProperties.h in Headers */,
+				9733A7E61E4D916900BF5A6E /* WithdrawModel.h in Headers */,
+				E3F6CDC41EA88B6A004AF1DF /* TopicMessageStatus.h in Headers */,
+				E3EDDEA31E5ABD11003323CF /* NSString+MD5.h in Headers */,
+				E3F824D41E64375700E79E17 /* Utils.h in Headers */,
+				E3F471DE1E713D8F00FBADB7 /* Reachability.h in Headers */,
+				E3F004FE1E83E1AD003B9EB2 /* MessageStatusModel.h in Headers */,
+				E3F280FE1E8D06260004F6A2 /* Topic_GroupMembers.h in Headers */,
+				E359A93F1F4D620400E72A6B /* transactedByModel.h in Headers */,
+				E359A9371F4D5F0400E72A6B /* TransactionsWalletModel.h in Headers */,
+				E30B8CF01E768D6900C8C1AA /* MQTT_QueueModel.h in Headers */,
+				E30D35A21F9F6909004DE252 /* TopicModel.h in Headers */,
+				55320CD61DD18DED000D45F0 /* JSONValueTransformer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		55B2D6561DCB6DC7008B65CA /* Sttarter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55B2D65F1DCB6DC7008B65CA /* Build configuration list for PBXNativeTarget "Sttarter" */;
+			buildPhases = (
+				718E4635529C9F9D258B3B3D /* [CP] Check Pods Manifest.lock */,
+				55B2D6521DCB6DC7008B65CA /* Sources */,
+				55B2D6531DCB6DC7008B65CA /* Frameworks */,
+				55B2D6541DCB6DC7008B65CA /* Headers */,
+				55B2D6551DCB6DC7008B65CA /* Resources */,
+				4964ECC43FBA4E136205A361 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sttarter;
+			productName = SpurTreeFramework;
+			productReference = 55B2D6571DCB6DC7008B65CA /* Sttarter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55B2D64E1DCB6DC7008B65CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Spurtree;
+				TargetAttributes = {
+					55B2D6561DCB6DC7008B65CA = {
+						CreatedOnToolsVersion = 8.1;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 55B2D6511DCB6DC7008B65CA /* Build configuration list for PBXProject "Sttarter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 55B2D64D1DCB6DC7008B65CA;
+			productRefGroup = 55B2D6581DCB6DC7008B65CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55B2D6561DCB6DC7008B65CA /* Sttarter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55B2D6551DCB6DC7008B65CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E37FB2151E00086200183781 /* mqtt.plist in Resources */,
+				55320CFE1DD18EAC000D45F0 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4964ECC43FBA4E136205A361 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sttarter/Pods-Sttarter-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		718E4635529C9F9D258B3B3D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55B2D6521DCB6DC7008B65CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9733A7E71E4D916900BF5A6E /* WithdrawModel.m in Sources */,
+				9703BA3E1E51BF86009CE372 /* WalletModel.m in Sources */,
+				97FC445B1E2E26BE0050DA59 /* STTarterReferrals.m in Sources */,
+				E3FF491A1EB8B9D9008B1A38 /* TopicMessageStatusEntity+CoreDataClass.m in Sources */,
+				97F3275A1E49C0BF00880D62 /* WalletListModel.m in Sources */,
+				97FC449B1E2F2C220050DA59 /* MyTopicsModel.m in Sources */,
+				97D8E5FC1E4B422E006F931B /* TransferFundBaseModel.m in Sources */,
+				97CCC0321E32001C0054D8BB /* CouponManager.m in Sources */,
+				97F327561E49A55100880D62 /* AddMemberModel.m in Sources */,
+				E3F004FF1E83E1AD003B9EB2 /* MessageStatusModel.m in Sources */,
+				E319F4E91E35CC550040CA3E /* STTarterContentSystem.m in Sources */,
+				97FC44411E2E1F8F0050DA59 /* Referrals.m in Sources */,
+				E30D35A31F9F6909004DE252 /* TopicModel.m in Sources */,
+				E3F280FF1E8D06260004F6A2 /* Topic_GroupMembers.m in Sources */,
+				E359A9401F4D620400E72A6B /* transactedByModel.m in Sources */,
+				E3B20B171E38BE73006DB729 /* ReferrelSignupModel.m in Sources */,
+				97FC44741E2E3A010050DA59 /* OtpLoginModel.m in Sources */,
+				E3FF49181EB8B9D9008B1A38 /* TopicMessageEntity+CoreDataProperties.m in Sources */,
+				E3FF491C1EB8B9D9008B1A38 /* TopicMessageStatusEntity+CoreDataProperties.m in Sources */,
+				E3F532E21E4DDB0B002DD9E2 /* InteractedWithModel.m in Sources */,
+				97FC44781E2E3A010050DA59 /* SignUpUserInfoModel.m in Sources */,
+				E30B8CF11E768D6900C8C1AA /* MQTT_QueueModel.m in Sources */,
+				97FC44201E2E1E3D0050DA59 /* AFURLResponseSerialization.m in Sources */,
+				97FC443F1E2E1F8F0050DA59 /* GetRefCodeModel.m in Sources */,
+				97FC44111E2E1E3D0050DA59 /* AFHTTPRequestOperation.m in Sources */,
+				97FC44991E2F2C220050DA59 /* MessagesModel.m in Sources */,
+				977D86821E37653A00B89544 /* CouponModel.m in Sources */,
+				97FC44911E2F2C220050DA59 /* BuzzMessagesModel.m in Sources */,
+				E3FDBE2A1E5866EF00B70F15 /* TopicMessageDetail.m in Sources */,
+				E3EDDEA41E5ABD11003323CF /* NSString+MD5.m in Sources */,
+				9703BA421E51C06F009CE372 /* WalletMemberModel.m in Sources */,
+				97AC7C861E4B22910097D524 /* WalletDeposit.m in Sources */,
+				97AD4A9C1E4AE28900570630 /* GetWalletDetailsModel.m in Sources */,
+				97F3275E1E49C1BF00880D62 /* WalletMembersModel.m in Sources */,
+				974573F21E49CE00009A8720 /* WalletListbaseModel.m in Sources */,
+				97FC441C1E2E1E3D0050DA59 /* AFURLConnectionOperation.m in Sources */,
+				97CD02791E41F828007E3D36 /* WalletManager.m in Sources */,
+				97FC44701E2E3A010050DA59 /* GetOtpModel.m in Sources */,
+				E3B20B0D1E38A8AC006DB729 /* STTaterCommunicator.m in Sources */,
+				97FC44131E2E1E3D0050DA59 /* AFHTTPRequestOperationManager.m in Sources */,
+				97FC44C91E2F3B570050DA59 /* DownloadManager.m in Sources */,
+				97016EE11E375BD000A17845 /* CouponResultModel.m in Sources */,
+				E3FDBE261E5863FE00B70F15 /* TopicMessage.m in Sources */,
+				E3FF491E1EB8B9D9008B1A38 /* TopicMessageDetailEntity+CoreDataClass.m in Sources */,
+				97FC449D1E2F2C220050DA59 /* PermittedModulesModel.m in Sources */,
+				97FC445F1E2E385D0050DA59 /* TrackUsageModel.m in Sources */,
+				97FC44761E2E3A010050DA59 /* SignUpModel.m in Sources */,
+				E3A61C601EAE164500E06821 /* Topics+CoreDataClass.m in Sources */,
+				97F327521E49A53500880D62 /* AddmemberBaseModel.m in Sources */,
+				E3A61C621EAE164500E06821 /* Topics+CoreDataProperties.m in Sources */,
+				973C663A1E488BF000CA6F20 /* CreateWalletBaseModel.m in Sources */,
+				97FC44151E2E1E3D0050DA59 /* AFHTTPSessionManager.m in Sources */,
+				E3A61C6A1EAE164500E06821 /* MQTT_Queue+CoreDataProperties.m in Sources */,
+				9703BA321E51BC62009CE372 /* SubwalletModel.m in Sources */,
+				E3F824D51E64375700E79E17 /* Utils.m in Sources */,
+				97FC44B71E2F2C9C0050DA59 /* Sttarter.xcdatamodeld in Sources */,
+				97AC7C821E4B22180097D524 /* WalletDepositBaseModel.m in Sources */,
+				97FC44B21E2F2C9C0050DA59 /* DatabaseHandler.m in Sources */,
+				9703BA361E51BD4C009CE372 /* AdminwalletModel.m in Sources */,
+				97FC446E1E2E3A010050DA59 /* AuthModel.m in Sources */,
+				97FC441E1E2E1E3D0050DA59 /* AFURLRequestSerialization.m in Sources */,
+				97FC44221E2E1E3D0050DA59 /* AFURLSessionManager.m in Sources */,
+				97FC44721E2E3A010050DA59 /* LoginModel.m in Sources */,
+				978DB9AD1E54693300F0DC95 /* GetMessagesModel.m in Sources */,
+				E3FF49161EB8B9D9008B1A38 /* TopicMessageEntity+CoreDataClass.m in Sources */,
+				97FC44571E2E25120050DA59 /* STTarterManager.m in Sources */,
+				97FC443D1E2E1F8F0050DA59 /* ChangeRefModel.m in Sources */,
+				97FC44A31E2F2C220050DA59 /* UsersModel.m in Sources */,
+				E359A9381F4D5F0400E72A6B /* TransactionsWalletModel.m in Sources */,
+				973C66361E488BAD00CA6F20 /* CreateWalletModel.m in Sources */,
+				97D8E6001E4B426F006F931B /* TransferFundModel.m in Sources */,
+				E3F6CDC51EA88B6A004AF1DF /* TopicMessageStatus.m in Sources */,
+				9703BA3A1E51BD9C009CE372 /* MemberswithWalletModel.m in Sources */,
+				97FC44A11E2F2C220050DA59 /* TopicsModel.m in Sources */,
+				E3A61C681EAE164500E06821 /* MQTT_Queue+CoreDataClass.m in Sources */,
+				97FC441A1E2E1E3D0050DA59 /* AFSecurityPolicy.m in Sources */,
+				97FC44181E2E1E3D0050DA59 /* AFNetworkReachabilityManager.m in Sources */,
+				971FC4531E4AE57E0074255D /* WalletTransactionsModel.m in Sources */,
+				E3FF49201EB8B9D9008B1A38 /* TopicMessageDetailEntity+CoreDataProperties.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		55B2D65D1DCB6DC7008B65CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		55B2D65E1DCB6DC7008B65CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		55B2D6601DCB6DC7008B65CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 412B80BEB4192059DED7D91F /* Pods-Sttarter.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
+				INFOPLIST_FILE = Sttarter/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Spurtee.Sttarter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 armv7s arm64";
+			};
+			name = Debug;
+		};
+		55B2D6611DCB6DC7008B65CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63B1F78FEBED1BE8C18F1F86 /* Pods-Sttarter.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+				);
+				INFOPLIST_FILE = Sttarter/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Spurtee.Sttarter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 armv7s arm64";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55B2D6511DCB6DC7008B65CA /* Build configuration list for PBXProject "Sttarter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55B2D65D1DCB6DC7008B65CA /* Debug */,
+				55B2D65E1DCB6DC7008B65CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55B2D65F1DCB6DC7008B65CA /* Build configuration list for PBXNativeTarget "Sttarter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55B2D6601DCB6DC7008B65CA /* Debug */,
+				55B2D6611DCB6DC7008B65CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		97FC44AA1E2F2C9C0050DA59 /* Sttarter.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				97FC44AB1E2F2C9C0050DA59 /* Sttarter 2.xcdatamodel */,
+				97FC44AC1E2F2C9C0050DA59 /* Sttarter.xcdatamodel */,
+			);
+			currentVersion = 97FC44AC1E2F2C9C0050DA59 /* Sttarter.xcdatamodel */;
+			name = Sttarter.xcdatamodeld;
+			path = "DataBase Manager/Sttarter.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 55B2D64E1DCB6DC7008B65CA /* Project object */;
+}

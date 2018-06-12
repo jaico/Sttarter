@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11232" systemVersion="15F34" minimumToolsVersion="Xcode 7.3" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="Messages" representedClassName="Messages" syncable="YES">
+        <attribute name="is_read" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="is_sender" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="is_sent" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="message_deliveredTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="message_fileType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="message_fileUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="message_from" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="message_hash" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="message_readByTheReceiverTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="message_text" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="message_timeStamp" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="message_topic" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="message_type" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="MQTT_Queue" representedClassName="MQTT_Queue" syncable="YES">
+        <attribute name="mqttQueue_MessageHash" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mqttQueue_PayloadData" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="mqttQueue_Topic" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="TopicMessageDetailEntity" representedClassName="TopicMessageDetailEntity" syncable="YES">
+        <attribute name="isDelivered" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isReadBytheReceiver" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="messageFileType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="messageFileURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="messageFrom" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="messageHash" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="messageSubType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="messageText" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="messageTimeStamp" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="messageTypes" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="topicMessage" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="TopicMessageEntity" inverseName="topicMessageDetail" inverseEntity="TopicMessageEntity" syncable="YES"/>
+        <relationship name="topicMessageStatusList" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="TopicMessageStatusEntity" inverseName="topicMessageDetail" inverseEntity="TopicMessageStatusEntity" syncable="YES"/>
+    </entity>
+    <entity name="TopicMessageEntity" representedClassName="TopicMessageEntity" syncable="YES">
+        <attribute name="is_Read" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="is_sender" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="is_sent" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="topic" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="messageTopic" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Topics" inverseName="topicMessagesList" inverseEntity="Topics" syncable="YES"/>
+        <relationship name="topicMessageDetail" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="TopicMessageDetailEntity" inverseName="topicMessage" inverseEntity="TopicMessageDetailEntity" syncable="YES"/>
+    </entity>
+    <entity name="TopicMessageStatusEntity" representedClassName="TopicMessageStatusEntity" syncable="YES">
+        <attribute name="is_delivered" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="is_readByTheReceiver" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="message_hash" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="topic_user_id" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="topicMessageDetail" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="TopicMessageDetailEntity" inverseName="topicMessageStatusList" inverseEntity="TopicMessageDetailEntity" syncable="YES"/>
+    </entity>
+    <entity name="Topics" representedClassName="Topics" syncable="YES">
+        <attribute name="topic_group_members" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="topic_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="topic_is_public" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="topic_is_subscribed" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="topic_isMessageRead" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="topic_LastReceivedMessage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="topic_meta" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="topic_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="topic_NotificationCount" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="topic_type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="topic_updated_unix_timestamp" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="topic_userId" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="topicMessagesList" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="TopicMessageEntity" inverseName="messageTopic" inverseEntity="TopicMessageEntity" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Messages" positionX="-1233" positionY="-154" width="243" height="238"/>
+        <element name="MQTT_Queue" positionX="-1233" positionY="-261" width="153" height="88"/>
+        <element name="TopicMessageDetailEntity" positionX="-902" positionY="-333" width="173" height="223"/>
+        <element name="Topics" positionX="-1332" positionY="-639" width="180" height="238"/>
+        <element name="TopicMessageEntity" positionX="-1116" positionY="-468" width="171" height="133"/>
+        <element name="TopicMessageStatusEntity" positionX="-837" positionY="-36" width="164" height="118"/>
+    </elements>
+</model>

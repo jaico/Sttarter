@@ -1,0 +1,25 @@
+PODS:
+  - JSONModel (1.7.0)
+  - MQTTClient (0.9.7):
+    - MQTTClient/Core (= 0.9.7)
+  - MQTTClient/Core (0.9.7):
+    - MQTTClient/Manager
+    - MQTTClient/Min
+  - MQTTClient/Manager (0.9.7):
+    - MQTTClient/Min
+  - MQTTClient/Min (0.9.7)
+  - Reachability (3.2)
+
+DEPENDENCIES:
+  - JSONModel
+  - MQTTClient
+  - Reachability
+
+SPEC CHECKSUMS:
+  JSONModel: 840bc0fcffb24b8454d2c026bf26fea454b8e98d
+  MQTTClient: 06755c47fdf8e50f0abaca844a226fd26574fb34
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+
+PODFILE CHECKSUM: 85fcdaf6042d9dedc09bf7cd410db5566940f070
+
+COCOAPODS: 1.0.1
