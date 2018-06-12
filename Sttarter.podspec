@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'Sttarter'
-  s.version          = '0.1.5'
+  s.version          = '0.1.6'
   s.summary          = 'By far the most Sttarter I have seen in my entire life. No joke.'
  
   s.description      = <<-DESC
@@ -14,7 +14,6 @@ This Sttarter changes its dependancy gradually makes your app look fantastic!
  
   s.ios.deployment_target = '8.0'
   s.swift_version = '3.0'
-  s.source_files = 'Sttarter/**/*.{h}'
-  
+  s.source_files = 'Sttarter/**.{framework}/*.{h}'
  
 end
